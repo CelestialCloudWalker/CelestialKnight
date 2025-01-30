@@ -1,26 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Downloads\\CK\\Source\\CelestialKnights\\CelestialKnights.csproj": {}
+    "O:\\GitHub\\CelestialKnight\\Source\\CelestialKnights\\CelestialKnights.csproj": {}
   },
   "projects": {
-    "E:\\Downloads\\CK\\Source\\CelestialKnights\\CelestialKnights.csproj": {
+    "O:\\GitHub\\CelestialKnight\\Source\\CelestialKnights\\CelestialKnights.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Downloads\\CK\\Source\\CelestialKnights\\CelestialKnights.csproj",
+        "projectUniqueName": "O:\\GitHub\\CelestialKnight\\Source\\CelestialKnights\\CelestialKnights.csproj",
         "projectName": "CelestialKnights",
-        "projectPath": "E:\\Downloads\\CK\\Source\\CelestialKnights\\CelestialKnights.csproj",
-        "packagesPath": "C:\\Users\\Ra1der\\.nuget\\packages\\",
-        "outputPath": "E:\\Downloads\\CK\\Source\\CelestialKnights\\obj\\",
+        "projectPath": "O:\\GitHub\\CelestialKnight\\Source\\CelestialKnights\\CelestialKnights.csproj",
+        "packagesPath": "C:\\Users\\Bry\\.nuget\\packages\\",
+        "outputPath": "O:\\GitHub\\CelestialKnight\\Source\\CelestialKnights\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
-        "UsingMicrosoftNETSdk": false,
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Ra1der\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Bry\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,11 +29,6 @@
           "net48": {
             "projectReferences": {}
           }
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "all"
         }
       },
       "frameworks": {
@@ -47,6 +37,10 @@
             "Krafs.Rimworld.Ref": {
               "target": "Package",
               "version": "[1.5.4297, )"
+            },
+            "Lib.Harmony": {
+              "target": "Package",
+              "version": "[2.3.3, )"
             }
           }
         }

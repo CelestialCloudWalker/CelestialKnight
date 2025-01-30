@@ -14,7 +14,7 @@
         <texPath>Animations/Moon1</texPath>
          <tagDef>Head</tagDef>
         <graphicData>
-          <texPath>CelestialKnightSuit/PowerRangerHelmet</texPath>
+          <texPath>CelestialKnightSuit/Helmet/PowerRangerHelmet</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
           <drawSize>1.05</drawSize>
           <shaderParameters>
@@ -33,7 +33,7 @@
         <texPath>Animations/Moon1</texPath>
          <tagDef>Body</tagDef>
         <graphicData>
-          <texPath>CelestialKnightSuit/PowerRangerArmor</texPath>
+          <texPath>CelestialKnightSuit/Armour/PowerRangerArmor</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
           <drawSize>1.1</drawSize>
           <shaderParameters>
@@ -42,7 +42,7 @@
         </graphicData>
         <overlayColor>(1, 1, 1)</overlayColor>
         <overlayAlpha>1</overlayAlpha>
-        <overlayLayer>Head</overlayLayer>
+        <overlayLayer>Body</overlayLayer>
         <offset>(0, 0,0)</offset>
         <layerOffset>5000</layerOffset>
         <workerClass>CelestialKnights.CelestialKnightsPawnOverlayNodeWorker</workerClass>

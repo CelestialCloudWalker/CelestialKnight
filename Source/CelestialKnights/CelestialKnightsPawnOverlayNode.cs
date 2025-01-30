@@ -6,10 +6,10 @@ namespace CelestialKnights
     public class CelestialKnightsPawnOverlayNode : PawnRenderNode
     {
         public new CelestialKnightsPawnOverlayNodeProperties Props => (CelestialKnightsPawnOverlayNodeProperties)props;
-        private Gene_CelestialKnights CelestialKnightsGene = null;
 
         public CelestialKnightsPawnOverlayNode(Pawn pawn, PawnRenderNodeProperties props, PawnRenderTree tree) : base(pawn, props, tree)
         {
+
         }
 
         public override Graphic GraphicFor(Pawn pawn)
@@ -39,16 +39,6 @@ namespace CelestialKnights
 
         public override Color ColorFor(Pawn pawn)
         {
-            if (CelestialKnightsGene == null)
-            {
-                CelestialKnightsGene = pawn.genes.GetFirstGeneOfType<Gene_CelestialKnights>();
-            }
-
-            if (CelestialKnightsGene != null && CelestialKnightsGene.SuitColor != default(Color))
-            {
-                return CelestialKnightsGene.SuitColor;
-            }
-
             return base.ColorFor(pawn);
         }
     }

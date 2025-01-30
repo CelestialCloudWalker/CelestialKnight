@@ -8,7 +8,7 @@ namespace CelestialKnights
     {
         static GraphicsPatches()
         {
-            var harmony = new Harmony("com.protean.graphicspatches");
+            var harmony = new Harmony("com.knights.sssssss");
             harmony.PatchAll();
         }
 

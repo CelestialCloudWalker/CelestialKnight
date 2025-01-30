@@ -6,3 +6,14 @@ E:\Downloads\CK\Source\CelestialKnights\bin\Debug\Talented.dll
 E:\Downloads\CK\Source\CelestialKnights\obj\Debug\Celestia.DAFF0669.Up2Date
 E:\Downloads\CK\Source\CelestialKnights\obj\Debug\CelestialKnights.dll
 E:\Downloads\CK\Source\CelestialKnights\obj\Debug\CelestialKnights.pdb
+O:\GitHub\CelestialKnight\Source\CelestialKnights\bin\Debug\CelestialKnights.dll
+O:\GitHub\CelestialKnight\Source\CelestialKnights\bin\Debug\CelestialKnights.pdb
+O:\GitHub\CelestialKnight\Source\CelestialKnights\bin\Debug\0Harmony.dll
+O:\GitHub\CelestialKnight\Source\CelestialKnights\bin\Debug\0Harmony.pdb
+O:\GitHub\CelestialKnight\Source\CelestialKnights\obj\Debug\CelestialKnights.csproj.AssemblyReference.cache
+O:\GitHub\CelestialKnight\Source\CelestialKnights\obj\Debug\CelestialKnights.csproj.CoreCompileInputs.cache
+O:\GitHub\CelestialKnight\Source\CelestialKnights\obj\Debug\CelestialKnights.csproj.CopyComplete
+O:\GitHub\CelestialKnight\Source\CelestialKnights\obj\Debug\CelestialKnights.dll
+O:\GitHub\CelestialKnight\Source\CelestialKnights\obj\Debug\CelestialKnights.pdb
+O:\GitHub\CelestialKnight\Source\CelestialKnights\bin\Debug\Talented.dll
+O:\GitHub\CelestialKnight\Source\CelestialKnights\bin\Debug\Talented.pdb

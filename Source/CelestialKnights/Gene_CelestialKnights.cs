@@ -25,32 +25,23 @@ namespace CelestialKnights
         public int BondLevel => bondLevel;
         public float CurrentBondProgress => currentBond / MaxBondPerLevel(bondLevel);
 
-
-        private Color _SuitColor;
-        public Color SuitColor => (Color)this.pawn.story.favoriteColor;
-
+        public Color SuitColor =>
+            this.pawn?.story?.favoriteColor != null &&
+            this.pawn.story.favoriteColor.Value != default(Color)
+                ? this.pawn.story.favoriteColor.Value
+                : Color.blue;
 
         protected CelestialKnightsGeneDef CelestialKnightsGeneDef => (CelestialKnightsGeneDef)def;
 
 
         private float MaxBondPerLevel(int level) => (level + 1) * BaseBond;
 
-        public override void PostRemove()
-        {
-            base.PostRemove();
-        }
 
         public override void OnExperienceGained(float amount, string source)
         {
 
         }
 
-        public void SetSuitColor(Color newColor)
-        {
-            _SuitColor = newColor;
-        }
-
-        
 
         public override void Tick()
         {
@@ -130,8 +121,6 @@ namespace CelestialKnights
             Scribe_Values.Look(ref bondLevel, "bondLevel", 0);
             Scribe_Values.Look(ref currentBond, "currentBond", 0f);
             Scribe_Values.Look(ref talentPoints, "talentPoints", 0);
-
-            Scribe_Values.Look(ref _SuitColor, "suitColor");
         }
 
     }
