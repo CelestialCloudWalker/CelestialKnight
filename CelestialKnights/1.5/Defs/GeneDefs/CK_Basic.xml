@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <CelestialKnights.CelestialKnightsGeneDef>
+        <defName>CelestialKnights_BasicGene</defName>
+        <label>CelestialKnights</label>
+        <geneClass>CelestialKnights.Gene_CelestialKnights</geneClass>
+        <description>A gene with talent tree mechanics.</description>
+
+        <!-- Tree Configuration -->
+        <TalentTrees>
+            <li>GenericExampleTree</li>
+        </TalentTrees>
+
+        <abilities>
+            <li>CelestialKnights_ToggleSuit</li>
+        </abilities>
+
+        <!-- Experience System -->
+        <experienceFormula>Basic_LinearXP</experienceFormula>
+        <experienceGainSettings>
+            <experienceTypes>
+                <!-- Combat XP -->
+                <li Class="Talented.DamageDealtExperienceTypeDef">
+                    <baseXP>10</baseXP>
+                    <damageFactor>0.1</damageFactor>
+                </li>
+                <li Class="Talented.DamageTakenExperienceTypeDef">
+                    <baseXP>10</baseXP>
+                    <damageFactor>0.1</damageFactor>
+                </li>
+
+                <!-- Skill XP -->
+                <li Class="Talented.SkillExperienceTypeDef">
+                    <SkillDef>Shooting</SkillDef>
+                    <baseXP>2</baseXP>
+                </li>
+
+                <!-- Job XP -->
+                <li Class="Talented.JobExperienceTypeDef">
+                    <JobDef>HaulToCell</JobDef>
+                    <baseXP>1</baseXP>
+                </li>
+
+                <!-- Verb XP -->
+                <li Class="Talented.VerbExperienceTypeDef">
+                    <VerbClassName>Verb_BeatFire</VerbClassName>
+                    <baseXP>1</baseXP>
+                </li>
+            </experienceTypes>
+        </experienceGainSettings>
+
+        <barColor>(0.012, 0.012, 0.541)</barColor>
+        <resourceGizmoThresholds>
+            <li>0.25</li>
+            <li>0.5</li>
+            <li>0.75</li>
+        </resourceGizmoThresholds>
+
+        <!-- UI Configuration -->
+        <TabLabel>Talents</TabLabel>
+    </CelestialKnights.CelestialKnightsGeneDef>
+</Defs>

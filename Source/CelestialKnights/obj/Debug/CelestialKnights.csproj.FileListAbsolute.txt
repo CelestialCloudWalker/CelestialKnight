@@ -1,0 +1,8 @@
+E:\Downloads\CK\Source\CelestialKnights\obj\Debug\CelestialKnights.csproj.AssemblyReference.cache
+E:\Downloads\CK\Source\CelestialKnights\obj\Debug\CelestialKnights.csproj.CoreCompileInputs.cache
+E:\Downloads\CK\Source\CelestialKnights\bin\Debug\CelestialKnights.dll
+E:\Downloads\CK\Source\CelestialKnights\bin\Debug\CelestialKnights.pdb
+E:\Downloads\CK\Source\CelestialKnights\bin\Debug\Talented.dll
+E:\Downloads\CK\Source\CelestialKnights\obj\Debug\Celestia.DAFF0669.Up2Date
+E:\Downloads\CK\Source\CelestialKnights\obj\Debug\CelestialKnights.dll
+E:\Downloads\CK\Source\CelestialKnights\obj\Debug\CelestialKnights.pdb
