@@ -8,12 +8,8 @@
 
         <!-- Tree Configuration -->
         <TalentTrees>
-            <li>GenericExampleTree</li>
+            <li>CelestialAwakening</li>
         </TalentTrees>
-
-        <abilities>
-            <li>CelestialKnights_ToggleSuit</li>
-        </abilities>
 
         <!-- Experience System -->
         <experienceFormula>Basic_LinearXP</experienceFormula>

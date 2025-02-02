@@ -1,0 +1,4176 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <Talented.TalentDef>
+    <defName>BrawlersInstinct</defName>
+    <label>Brawler’s Instinct</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MeleeCooldownFactor</statDef>
+        <value>0.95</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>BrawlersInstinct2</defName>
+    <label>Brawler’s Instinct</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MeleeCooldownFactor</statDef>
+        <value>0.9</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>BrawlersInstinct3</defName>
+    <label>Brawler’s Instinct</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MeleeCooldownFactor</statDef>
+        <value>0.85</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>CracktheCarapace</defName>
+    <label>Crack the Carapace</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MeleeArmorPenetration</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>CracktheCarapace2</defName>
+    <label>Crack the Carapace</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MeleeArmorPenetration</statDef>
+        <value>1.2</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>CracktheCarapace3</defName>
+    <label>Crack the Carapace</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MeleeArmorPenetration</statDef>
+        <value>1.3</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>SeasonedFighter</defName>
+    <label>Seasoned Fighter</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MeleeHitChance</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>SeasonedFighter2</defName>
+    <label>Seasoned Fighter</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MeleeHitChance</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>SeasonedFighter3</defName>
+    <label>Seasoned Fighter</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MeleeHitChance</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>DriftersReflexes</defName>
+    <label>Drifter’s Reflexes</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MeleeDodgeChance</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>DriftersReflexes2</defName>
+    <label>Drifter’s Reflexes</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MeleeDodgeChance</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>DriftersReflexes3</defName>
+    <label>Drifter’s Reflexes</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MeleeDodgeChance</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>SuppressiveFire</defName>
+    <label>Suppressive Fire</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>RangedCooldownFactor</statDef>
+        <value>0.95</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>SuppressiveFire2</defName>
+    <label>Suppressive Fire</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>RangedCooldownFactor</statDef>
+        <value>0.9</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>SuppressiveFire3</defName>
+    <label>Suppressive Fire</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>RangedCooldownFactor</statDef>
+        <value>0.85</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>SteadyHand</defName>
+    <label>Steady Hand</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ShootingAccuracyPawn</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>SteadyHand2</defName>
+    <label>Steady Hand</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ShootingAccuracyPawn</statDef>
+        <value>1.04</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>SteadyHand3</defName>
+    <label>Steady Hand</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ShootingAccuracyPawn</statDef>
+        <value>1.06</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>SnapShot</defName>
+    <label>Snap Shot</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>AimingDelayFactor</statDef>
+        <value>0.95</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>SnapShot2</defName>
+    <label>Snap Shot</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>AimingDelayFactor</statDef>
+        <value>0.9</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>SnapShot3</defName>
+    <label>Snap Shot</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>AimingDelayFactor</statDef>
+        <value>0.85</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>BattleHardened</defName>
+    <label>Battle Hardened</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>IncomingDamageFactor</statDef>
+        <value>0.95</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>BattleHardened2</defName>
+    <label>Battle Hardened</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>IncomingDamageFactor</statDef>
+        <value>0.9</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>BattleHardened3</defName>
+    <label>Battle Hardened</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>IncomingDamageFactor</statDef>
+        <value>0.85</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>StonewallStance</defName>
+    <label>Stonewall Stance</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>StaggerDurationFactor</statDef>
+        <value>0.9</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>StonewallStance2</defName>
+    <label>Stonewall Stance</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>StaggerDurationFactor</statDef>
+        <value>0.8</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>StonewallStance3</defName>
+    <label>Stonewall Stance</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>StaggerDurationFactor</statDef>
+        <value>0.7</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>Fleetfoot</defName>
+    <label>Fleet foot </label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MoveSpeed</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>Fleetfoot2</defName>
+    <label>Fleet foot </label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MoveSpeed</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>Fleetfoot3</defName>
+    <label>Fleet foot </label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MoveSpeed</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>CrawlThroughtheMud</defName>
+    <label>Crawl Through the Mud</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>CrawlSpeed</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>CrawlThroughtheMud2</defName>
+    <label>Crawl Through the Mud</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>CrawlSpeed</statDef>
+        <value>1.25</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>CrawlThroughtheMud3</defName>
+    <label>Crawl Through the Mud</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>CrawlSpeed</statDef>
+        <value>1.35</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>StubbornResolve</defName>
+    <label>Stubborn Resolve</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MentalBreakThreshold</statDef>
+        <value>0.97</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>StubbornResolve2</defName>
+    <label>Stubborn Resolve</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MentalBreakThreshold</statDef>
+        <value>0.94</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>StubbornResolve3</defName>
+    <label>Stubborn Resolve</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MentalBreakThreshold</statDef>
+        <value>0.91</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>PatchUpandPushOn</defName>
+    <label>Patch Up and Push On</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>InjuryHealingFactor</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>PatchUpandPushOn2</defName>
+    <label>Patch Up and Push On</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>InjuryHealingFactor</statDef>
+        <value>1.2</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>PatchUpandPushOn3</defName>
+    <label>Patch Up and Push On</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>InjuryHealingFactor</statDef>
+        <value>1.3</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>ToughasNails</defName>
+    <label>Tough as Nails</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ImmunityGainSpeed</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>ToughasNails2</defName>
+    <label>Tough as Nails</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ImmunityGainSpeed</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>ToughasNails3</defName>
+    <label>Tough as Nails</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ImmunityGainSpeed</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>PackMule</defName>
+    <label>Pack Mule</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>CarryingCapacity</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>PackMule2</defName>
+    <label>Pack Mule</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>CarryingCapacity</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>PackMule3</defName>
+    <label>Pack Mule</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>CarryingCapacity</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>FirmGrip</defName>
+    <label>Firm Grip</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ArrestSuccessChance</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>FirmGrip2</defName>
+    <label>Firm Grip</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ArrestSuccessChance</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>FirmGrip3</defName>
+    <label>Firm Grip</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ArrestSuccessChance</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>WildWhisperer</defName>
+    <label>Wild Whisperer</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>TameAnimalChance</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>WildWhisperer2</defName>
+    <label>Wild Whisperer</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>TameAnimalChance</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>WildWhisperer3</defName>
+    <label>Wild Whisperer</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>TameAnimalChance</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>AnimalBond</defName>
+    <label>Animal Bond</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>TrainAnimalChance</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>AnimalBond2</defName>
+    <label>Animal Bond</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>TrainAnimalChance</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>AnimalBond3</defName>
+    <label>Animal Bond</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>TrainAnimalChance</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>Workhorse</defName>
+    <label>Workhorse </label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>WorkSpeedGlobal</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>Workhorse2</defName>
+    <label>Workhorse </label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>WorkSpeedGlobal</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>Workhorse3</defName>
+    <label>Workhorse </label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>WorkSpeedGlobal</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>OreHound</defName>
+    <label>Ore Hound</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MiningSpeed</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>OreHound2</defName>
+    <label>Ore Hound</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MiningSpeed</statDef>
+        <value>1.2</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>OreHound3</defName>
+    <label>Ore Hound</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MiningSpeed</statDef>
+        <value>1.3</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>ProspectorsEye</defName>
+    <label>Prospector’s Eye</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MiningYield</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>ProspectorsEye2</defName>
+    <label>Prospector’s Eye</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MiningYield</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>ProspectorsEye3</defName>
+    <label>Prospector’s Eye</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MiningYield</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>QuickLearner</defName>
+    <label>Quick Learner</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ResearchSpeed</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>QuickLearner2</defName>
+    <label>Quick Learner</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ResearchSpeed</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>QuickLearner3</defName>
+    <label>Quick Learner</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ResearchSpeed</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>GreenFingers</defName>
+    <label>Green Fingers</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>PlantWorkSpeed</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>GreenFingers2</defName>
+    <label>Green Fingers</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>PlantWorkSpeed</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>GreenFingers3</defName>
+    <label>Green Fingers</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>PlantWorkSpeed</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>GhostintheGrass</defName>
+    <label>Ghost in the Grass</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>HuntingStealth</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>GhostintheGrass2</defName>
+    <label>Ghost in the Grass</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>HuntingStealth</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>GhostintheGrass3</defName>
+    <label>Ghost in the Grass</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>HuntingStealth</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>SturdyHands</defName>
+    <label>Sturdy Hands</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ConstructionSpeed</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>SturdyHands2</defName>
+    <label>Sturdy Hands</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ConstructionSpeed</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>SturdyHands3</defName>
+    <label>Sturdy Hands</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ConstructionSpeed</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>NoWastedNails</defName>
+    <label>No Wasted Nails</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ConstructSuccessChance</statDef>
+        <value>1.03</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>NoWastedNails2</defName>
+    <label>No Wasted Nails</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ConstructSuccessChance</statDef>
+        <value>1.06</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>NoWastedNails3</defName>
+    <label>No Wasted Nails</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ConstructSuccessChance</statDef>
+        <value>1.09</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>TidyandTrue</defName>
+    <label>Tidy and True</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>CleaningSpeed</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>TidyandTrue2</defName>
+    <label>Tidy and True</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>CleaningSpeed</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>TidyandTrue3</defName>
+    <label>Tidy and True</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>CleaningSpeed</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>FieldMedic</defName>
+    <label>Field Medic</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MedicalTendSpeed</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>FieldMedic2</defName>
+    <label>Field Medic</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MedicalTendSpeed</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>FieldMedic3</defName>
+    <label>Field Medic</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MedicalTendSpeed</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>KeenDiagnosis</defName>
+    <label>Keen Diagnosis</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MedicalTendQuality</statDef>
+        <value>1.03</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>KeenDiagnosis2</defName>
+    <label>Keen Diagnosis</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MedicalTendQuality</statDef>
+        <value>1.06</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>KeenDiagnosis3</defName>
+    <label>Keen Diagnosis</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MedicalTendQuality</statDef>
+        <value>1.09</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>SteadyScalpel</defName>
+    <label>Steady Scalpel</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MedicalOperationSpeed</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>SteadyScalpel2</defName>
+    <label>Steady Scalpel</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MedicalOperationSpeed</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>SteadyScalpel3</defName>
+    <label>Steady Scalpel</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MedicalOperationSpeed</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>SureHandedSurgeon</defName>
+    <label>Sure-Handed Surgeon</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MedicalSurgerySuccessChance</statDef>
+        <value>1.03</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>SureHandedSurgeon2</defName>
+    <label>Sure-Handed Surgeon</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MedicalSurgerySuccessChance</statDef>
+        <value>1.06</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>SureHandedSurgeon3</defName>
+    <label>Sure-Handed Surgeon</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MedicalSurgerySuccessChance</statDef>
+        <value>1.09</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>RelentlessStrikes</defName>
+    <label>Relentless Strikes</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MeleeWeapon_AverageDPS</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>RelentlessStrikes2</defName>
+    <label>Relentless Strikes</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MeleeWeapon_AverageDPS</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>RelentlessStrikes3</defName>
+    <label>Relentless Strikes</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MeleeWeapon_AverageDPS</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>WeakSpotFinder</defName>
+    <label>Weak Spot Finder</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MeleeWeapon_AverageArmorPenetration</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>WeakSpotFinder2</defName>
+    <label>Weak Spot Finder</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MeleeWeapon_AverageArmorPenetration</statDef>
+        <value>1.2</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>WeakSpotFinder3</defName>
+    <label>Weak Spot Finder</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MeleeWeapon_AverageArmorPenetration</statDef>
+        <value>1.3</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>BrutalSwings</defName>
+    <label>Brutal Swings</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MeleeWeapon_DamageMultiplier</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>BrutalSwings2</defName>
+    <label>Brutal Swings</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MeleeWeapon_DamageMultiplier</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>BrutalSwings3</defName>
+    <label>Brutal Swings</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MeleeWeapon_DamageMultiplier</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>BreachSpecialist</defName>
+    <label>Breach Specialist</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MeleeDoorDamageFactor</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>BreachSpecialist2</defName>
+    <label>Breach Specialist</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MeleeDoorDamageFactor</statDef>
+        <value>1.25</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>BreachSpecialist3</defName>
+    <label>Breach Specialist</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MeleeDoorDamageFactor</statDef>
+        <value>1.35</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>MeleeFury</defName>
+    <label>Melee Fury</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MeleeDPS</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>MeleeFury2</defName>
+    <label>Melee Fury</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MeleeDPS</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>MeleeFury3</defName>
+    <label>Melee Fury</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MeleeDPS</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>SharpshootersGrip</defName>
+    <label>Sharpshooter's Grip</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ShootingAccuracyFactor_Touch</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>SharpshootersGrip2</defName>
+    <label>Sharpshooter's Grip</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ShootingAccuracyFactor_Touch</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>SharpshootersGrip3</defName>
+    <label>Sharpshooter's Grip</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ShootingAccuracyFactor_Touch</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>CloseQuarterPrecision</defName>
+    <label>Close-Quarter Precision</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ShootingAccuracyFactor_Short</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>CloseQuarterPrecision2</defName>
+    <label>Close-Quarter Precision</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ShootingAccuracyFactor_Short</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>CloseQuarterPrecision3</defName>
+    <label>Close-Quarter Precision</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ShootingAccuracyFactor_Short</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>MidRangeFocus</defName>
+    <label>Mid-Range Focus</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ShootingAccuracyFactor_Medium</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>MidRangeFocus2</defName>
+    <label>Mid-Range Focus</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ShootingAccuracyFactor_Medium</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>MidRangeFocus3</defName>
+    <label>Mid-Range Focus</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ShootingAccuracyFactor_Medium</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>LongDistanceSharpshooter</defName>
+    <label>Long-Distance Sharpshooter</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ShootingAccuracyFactor_Long</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>LongDistanceSharpshooter2</defName>
+    <label>Long-Distance Sharpshooter</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ShootingAccuracyFactor_Long</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>LongDistanceSharpshooter3</defName>
+    <label>Long-Distance Sharpshooter</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ShootingAccuracyFactor_Long</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>Trapmaster</defName>
+    <label>Trapmaster</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>PawnTrapSpringChance</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>Trapmaster2</defName>
+    <label>Trapmaster</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>PawnTrapSpringChance</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>Trapmaster3</defName>
+    <label>Trapmaster</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>PawnTrapSpringChance</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>EnduringStance</defName>
+    <label>Enduring Stance</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>StaggerDurationFactor</statDef>
+        <value>0.9</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>EnduringStance2</defName>
+    <label>Enduring Stance</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>StaggerDurationFactor</statDef>
+        <value>0.8</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>EnduringStance3</defName>
+    <label>Enduring Stance</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>StaggerDurationFactor</statDef>
+        <value>0.7</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>QuickRest</defName>
+    <label>Quick Rest</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>RestRateMultiplier</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>QuickRest2</defName>
+    <label>Quick Rest</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>RestRateMultiplier</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>QuickRest3</defName>
+    <label>Quick Rest</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>RestRateMultiplier</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>IronWill</defName>
+    <label>Iron Will</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>PainShockThreshold</statDef>
+        <value>0.95</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>IronWill2</defName>
+    <label>Iron Will</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>PainShockThreshold</statDef>
+        <value>0.9</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>IronWill3</defName>
+    <label>Iron Will</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>PainShockThreshold</statDef>
+        <value>0.85</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>Longevity</defName>
+    <label>Longevity</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>LifespanFactor</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>Longevity2</defName>
+    <label>Longevity</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>LifespanFactor</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>Longevity3</defName>
+    <label>Longevity</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>LifespanFactor</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>CharismaticLeader</defName>
+    <label>Charismatic Leader</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>NegotiationAbility</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>CharismaticLeader2</defName>
+    <label>Charismatic Leader</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>NegotiationAbility</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>CharismaticLeader3</defName>
+    <label>Charismatic Leader</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>NegotiationAbility</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>CharmingPresence</defName>
+    <label>Charming Presence</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>PawnBeauty</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>CharmingPresence2</defName>
+    <label>Charming Presence</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>PawnBeauty</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>CharmingPresence3</defName>
+    <label>Charming Presence</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>PawnBeauty</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>MasterTrader</defName>
+    <label>Master Trader</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>TradePriceImprovement</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>MasterTrader2</defName>
+    <label>Master Trader</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>TradePriceImprovement</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>MasterTrader3</defName>
+    <label>Master Trader</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>TradePriceImprovement</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>SocialButterfly</defName>
+    <label>Social Butterfly</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>SocialImpact</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>SocialButterfly2</defName>
+    <label>Social Butterfly</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>SocialImpact</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>SocialButterfly3</defName>
+    <label>Social Butterfly</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>SocialImpact</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>CoreMiner</defName>
+    <label>Core Miner</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>DeepDrillingSpeed</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>CoreMiner2</defName>
+    <label>Core Miner</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>DeepDrillingSpeed</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>CoreMiner3</defName>
+    <label>Core Miner</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>DeepDrillingSpeed</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>Craftsman</defName>
+    <label>Craftsman</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>SmoothingSpeed</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>Craftsman2</defName>
+    <label>Craftsman</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>SmoothingSpeed</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>Craftsman3</defName>
+    <label>Craftsman</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>SmoothingSpeed</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>HerbalHarvest</defName>
+    <label>Herbal Harvest</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>DrugHarvestYield</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>HerbalHarvest2</defName>
+    <label>Herbal Harvest</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>DrugHarvestYield</statDef>
+        <value>1.2</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>HerbalHarvest3</defName>
+    <label>Herbal Harvest</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>DrugHarvestYield</statDef>
+        <value>1.3</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>Rebuilder</defName>
+    <label>Rebuilder</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>FixBrokenDownBuildingSuccessChance</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>Rebuilder2</defName>
+    <label>Rebuilder</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>FixBrokenDownBuildingSuccessChance</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>Rebuilder3</defName>
+    <label>Rebuilder</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>FixBrokenDownBuildingSuccessChance</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>SpeedyCleaner</defName>
+    <label>Speedy Cleaner</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>CleaningSpeed</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>SpeedyCleaner2</defName>
+    <label>Speedy Cleaner</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>CleaningSpeed</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>SpeedyCleaner3</defName>
+    <label>Speedy Cleaner</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>CleaningSpeed</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>SmeltingProdigy</defName>
+    <label>Smelting Prodigy</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>SmeltingSpeed</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>SmeltingProdigy2</defName>
+    <label>Smelting Prodigy</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>SmeltingSpeed</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>SmeltingProdigy3</defName>
+    <label>Smelting Prodigy</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>SmeltingSpeed</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>AllPurposeWorker</defName>
+    <label>All-Purpose Worker</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>GeneralLaborSpeed</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>AllPurposeWorker2</defName>
+    <label>All-Purpose Worker</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>GeneralLaborSpeed</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>AllPurposeWorker3</defName>
+    <label>All-Purpose Worker</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>GeneralLaborSpeed</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>LabChemist</defName>
+    <label>Lab Chemist</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>DrugSynthesisSpeed</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>LabChemist2</defName>
+    <label>Lab Chemist</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>DrugSynthesisSpeed</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>LabChemist3</defName>
+    <label>Lab Chemist</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>DrugSynthesisSpeed</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>Gourmet</defName>
+    <label>Gourmet</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>CookSpeed</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>Gourmet2</defName>
+    <label>Gourmet</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>CookSpeed</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>Gourmet3</defName>
+    <label>Gourmet</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>CookSpeed</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>PharmaceuticalChef</defName>
+    <label>Pharmaceutical Chef</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>DrugCookingSpeed</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>PharmaceuticalChef2</defName>
+    <label>Pharmaceutical Chef</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>DrugCookingSpeed</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>PharmaceuticalChef3</defName>
+    <label>Pharmaceutical Chef</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>DrugCookingSpeed</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>FleshButcher</defName>
+    <label>Flesh Butcher</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ButcheryFleshSpeed</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>FleshButcher2</defName>
+    <label>Flesh Butcher</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ButcheryFleshSpeed</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>FleshButcher3</defName>
+    <label>Flesh Butcher</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ButcheryFleshSpeed</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>MechanoidButcher</defName>
+    <label>Mechanoid Butcher</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ButcheryMechanoidSpeed</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>MechanoidButcher2</defName>
+    <label>Mechanoid Butcher</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ButcheryMechanoidSpeed</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>MechanoidButcher3</defName>
+    <label>Mechanoid Butcher</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ButcheryMechanoidSpeed</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>EfficientButcher</defName>
+    <label>Efficient Butcher</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ButcheryFleshEfficiency</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>EfficientButcher2</defName>
+    <label>Efficient Butcher</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ButcheryFleshEfficiency</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>EfficientButcher3</defName>
+    <label>Efficient Butcher</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ButcheryFleshEfficiency</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>MechanoidProcessing</defName>
+    <label>Mechanoid Processing</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ButcheryMechanoidEfficiency</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>MechanoidProcessing2</defName>
+    <label>Mechanoid Processing</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ButcheryMechanoidEfficiency</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>MechanoidProcessing3</defName>
+    <label>Mechanoid Processing</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ButcheryMechanoidEfficiency</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>ChildSharpshooter</defName>
+    <label>Child Sharpshooter</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ShootingAccuracyChildFactor</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>ChildSharpshooter2</defName>
+    <label>Child Sharpshooter</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ShootingAccuracyChildFactor</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>ChildSharpshooter3</defName>
+    <label>Child Sharpshooter</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ShootingAccuracyChildFactor</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>FertileGround</defName>
+    <label>Fertile Ground</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>Fertility</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>FertileGround2</defName>
+    <label>Fertile Ground</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>Fertility</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>FertileGround3</defName>
+    <label>Fertile Ground</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>Fertility</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>MechBandwidth</defName>
+    <label>Mech Bandwidth</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MechBandwidth</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>MechBandwidth2</defName>
+    <label>Mech Bandwidth</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MechBandwidth</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>MechBandwidth3</defName>
+    <label>Mech Bandwidth</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MechBandwidth</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>MechControl</defName>
+    <label>Mech Control</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MechControlGroups</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>MechControl2</defName>
+    <label>Mech Control</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MechControlGroups</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>MechControl3</defName>
+    <label>Mech Control</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MechControlGroups</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>RemoteRepair</defName>
+    <label>Remote Repair</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MechRemoteRepairDistance</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>RemoteRepair2</defName>
+    <label>Remote Repair</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MechRemoteRepairDistance</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>RemoteRepair3</defName>
+    <label>Remote Repair</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MechRemoteRepairDistance</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>ShieldingMechanic</defName>
+    <label>Shielding Mechanic</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MechRemoteShieldDistance</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>ShieldingMechanic2</defName>
+    <label>Shielding Mechanic</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MechRemoteShieldDistance</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>ShieldingMechanic3</defName>
+    <label>Shielding Mechanic</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MechRemoteShieldDistance</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>PowerShield</defName>
+    <label>Power Shield</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MechRemoteShieldEnergy</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>PowerShield2</defName>
+    <label>Power Shield</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MechRemoteShieldEnergy</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>PowerShield3</defName>
+    <label>Power Shield</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MechRemoteShieldEnergy</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>MechFormations</defName>
+    <label>Mech Formations</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MechFormingSpeed</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>MechFormations2</defName>
+    <label>Mech Formations</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MechFormingSpeed</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>MechFormations3</defName>
+    <label>Mech Formations</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MechFormingSpeed</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>MechRepairer</defName>
+    <label>Mech Repairer</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MechRepairSpeed</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>MechRepairer2</defName>
+    <label>Mech Repairer</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MechRepairSpeed</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>MechRepairer3</defName>
+    <label>Mech Repairer</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MechRepairSpeed</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>EfficientEncoding</defName>
+    <label>Efficient Encoding</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>SubcoreEncodingSpeed</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>EfficientEncoding2</defName>
+    <label>Efficient Encoding</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>SubcoreEncodingSpeed</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>EfficientEncoding3</defName>
+    <label>Efficient Encoding</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>SubcoreEncodingSpeed</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>HemogenSpecialist</defName>
+    <label>Hemogen Specialist</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>HemogenGainFactor</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>HemogenSpecialist2</defName>
+    <label>Hemogen Specialist</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>HemogenGainFactor</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>HemogenSpecialist3</defName>
+    <label>Hemogen Specialist</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>HemogenGainFactor</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>NutritionOptimizer</defName>
+    <label>Nutrition Optimizer</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>RawNutritionFactor</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>NutritionOptimizer2</defName>
+    <label>Nutrition Optimizer</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>RawNutritionFactor</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>NutritionOptimizer3</defName>
+    <label>Nutrition Optimizer</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>RawNutritionFactor</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>LearningProdigy</defName>
+    <label>Learning Prodigy</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>LearningRateFactor</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>LearningProdigy2</defName>
+    <label>Learning Prodigy</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>LearningRateFactor</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>LearningProdigy3</defName>
+    <label>Learning Prodigy</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>LearningRateFactor</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>SocialConvert</defName>
+    <label>Social Convert</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ConversionPower</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>SocialConvert2</defName>
+    <label>Social Convert</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ConversionPower</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>SocialConvert3</defName>
+    <label>Social Convert</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ConversionPower</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>FaithfulDoctrine</defName>
+    <label>Faithful Doctrine</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>CertaintyLossFactor</statDef>
+        <value>0.9</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>FaithfulDoctrine2</defName>
+    <label>Faithful Doctrine</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>CertaintyLossFactor</statDef>
+        <value>0.8</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>FaithfulDoctrine3</defName>
+    <label>Faithful Doctrine</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>CertaintyLossFactor</statDef>
+        <value>0.7</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>FaithSpreader</defName>
+    <label>Faith Spreader</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>SocialIdeoSpreadFrequencyFactor</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>FaithSpreader2</defName>
+    <label>Faith Spreader</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>SocialIdeoSpreadFrequencyFactor</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>FaithSpreader3</defName>
+    <label>Faith Spreader</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>SocialIdeoSpreadFrequencyFactor</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>NightShot</defName>
+    <label>Night Shot</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ShootingAccuracyOutdoorsDarkOffset</statDef>
+        <value>0.9</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>NightShot2</defName>
+    <label>Night Shot</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ShootingAccuracyOutdoorsDarkOffset</statDef>
+        <value>0.8</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>NightShot3</defName>
+    <label>Night Shot</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ShootingAccuracyOutdoorsDarkOffset</statDef>
+        <value>0.7</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>DaylightMarksman</defName>
+    <label>Daylight Marksman</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ShootingAccuracyOutdoorsLitOffset</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>DaylightMarksman2</defName>
+    <label>Daylight Marksman</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ShootingAccuracyOutdoorsLitOffset</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>DaylightMarksman3</defName>
+    <label>Daylight Marksman</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ShootingAccuracyOutdoorsLitOffset</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>IndoorFocus</defName>
+    <label>Indoor Focus</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ShootingAccuracyIndoorsDarkOffset</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>IndoorFocus2</defName>
+    <label>Indoor Focus</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ShootingAccuracyIndoorsDarkOffset</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>IndoorFocus3</defName>
+    <label>Indoor Focus</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ShootingAccuracyIndoorsDarkOffset</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>IndoorSharpshooter2</defName>
+    <label>Indoor Sharpshooter </label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ShootingAccuracyIndoorsLitOffset</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>IndoorSharpshooter</defName>
+    <label>Indoor Sharpshooter </label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ShootingAccuracyIndoorsLitOffset</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>IndoorSharpshooter3</defName>
+    <label>Indoor Sharpshooter </label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ShootingAccuracyIndoorsLitOffset</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>OutdoorsWarrior</defName>
+    <label>Outdoors Warrior</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MeleeHitChanceOutdoorsDarkOffset</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>OutdoorsWarrior2</defName>
+    <label>Outdoors Warrior</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MeleeHitChanceOutdoorsDarkOffset</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>OutdoorsWarrior3</defName>
+    <label>Outdoors Warrior</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MeleeHitChanceOutdoorsDarkOffset</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>DaylightFighter</defName>
+    <label>Daylight Fighter</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MeleeHitChanceOutdoorsLitOffset</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>DaylightFighter2</defName>
+    <label>Daylight Fighter</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MeleeHitChanceOutdoorsLitOffset</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>DaylightFighter3</defName>
+    <label>Daylight Fighter</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MeleeHitChanceOutdoorsLitOffset</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>IndoorBrawler</defName>
+    <label>Indoor Brawler</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MeleeHitChanceIndoorsDarkOffset</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>IndoorBrawler2</defName>
+    <label>Indoor Brawler</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MeleeHitChanceIndoorsDarkOffset</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>IndoorBrawler3</defName>
+    <label>Indoor Brawler</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MeleeHitChanceIndoorsDarkOffset</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>IndoorDuelist</defName>
+    <label>Indoor Duelist</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MeleeDodgeChanceOutdoorsDarkOffset</statDef>
+        <value>0.9</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>IndoorDuelist2</defName>
+    <label>Indoor Duelist</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MeleeDodgeChanceOutdoorsDarkOffset</statDef>
+        <value>0.8</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>IndoorDuelist3</defName>
+    <label>Indoor Duelist</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MeleeHitChanceIndoorsLitOffset</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>DaylightEvasion</defName>
+    <label>Daylight Evasion</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MeleeHitChanceIndoorsLitOffset</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>DaylightEvasion2</defName>
+    <label>Daylight Evasion</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MeleeDodgeChanceOutdoorsLitOffset</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>DaylightEvasion3</defName>
+    <label>Daylight Evasion</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MeleeDodgeChanceOutdoorsLitOffset</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>OutdoorsEvasion</defName>
+    <label>Outdoors Evasion</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MeleeDodgeChanceOutdoorsDarkOffset</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>OutdoorsEvasion2</defName>
+    <label>Outdoors Evasion</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MeleeDodgeChanceOutdoorsDarkOffset</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>OutdoorsEvasion3</defName>
+    <label>Outdoors Evasion</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MeleeDodgeChanceOutdoorsDarkOffset</statDef>
+        <value>2.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>IndoorEvader</defName>
+    <label>Indoor Evader </label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MeleeDodgeChanceIndoorsDarkOffset</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>IndoorEvader2</defName>
+    <label>Indoor Evader </label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MeleeDodgeChanceIndoorsDarkOffset</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>IndoorEvader3</defName>
+    <label>Indoor Evader </label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MeleeDodgeChanceIndoorsDarkOffset</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>IndoorAcrobat</defName>
+    <label>Indoor Acrobat</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MeleeDodgeChanceIndoorsLitOffset</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>IndoorAcrobat2</defName>
+    <label>Indoor Acrobat</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MeleeDodgeChanceIndoorsLitOffset</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>IndoorAcrobat3</defName>
+    <label>Indoor Acrobat</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>MeleeDodgeChanceIndoorsLitOffset</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>FastRecovery</defName>
+    <label>Fast Recovery</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>BiosculpterOccupantSpeed</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>FastRecovery2</defName>
+    <label>Fast Recovery</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>BiosculpterOccupantSpeed</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>FastRecovery3</defName>
+    <label>Fast Recovery</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>BiosculpterOccupantSpeed</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>BetterSalesman</defName>
+    <label>Better Salesman</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>AnimalProductsSellImprovement</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>BetterSalesman2</defName>
+    <label>Better Salesman</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>AnimalProductsSellImprovement</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>BetterSalesman3</defName>
+    <label>Better Salesman</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>AnimalProductsSellImprovement</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>CombatHacker</defName>
+    <label>Combat Hacker</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>SuppressionPower</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>CombatHacker2</defName>
+    <label>Combat Hacker</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>SuppressionPower</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>CombatHacker3</defName>
+    <label>Combat Hacker</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>SuppressionPower</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>TechSavvy</defName>
+    <label>Tech Savvy</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>HackingSpeed</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>TechSavvy2</defName>
+    <label>Tech Savvy</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>HackingSpeed</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>TechSavvy3</defName>
+    <label>Tech Savvy</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>HackingSpeed</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>EfficientPruner</defName>
+    <label>Efficient Pruner</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>PruningSpeed</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>EfficientPruner2</defName>
+    <label>Efficient Pruner</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>PruningSpeed</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>EfficientPruner3</defName>
+    <label>Efficient Pruner</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>PruningSpeed</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>EntityAnalyzer</defName>
+    <label>Entity Analyzer</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>EntityStudyRate</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>EntityAnalyzer2</defName>
+    <label>Entity Analyzer</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>EntityStudyRate</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>EntityAnalyzer3</defName>
+    <label>Entity Analyzer</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>EntityStudyRate</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>EfficientResearcher</defName>
+    <label>Efficient Researcher</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>StudyEfficiency</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>EfficientResearcher2</defName>
+    <label>Efficient Researcher</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>StudyEfficiency</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>EfficientResearcher3</defName>
+    <label>Efficient Researcher</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>StudyEfficiency</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>SuppressionExpert</defName>
+    <label>Suppression Expert</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ActivitySuppressionRate</statDef>
+        <value>1.05</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>SuppressionExpert2</defName>
+    <label>Suppression Expert</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ActivitySuppressionRate</statDef>
+        <value>1.1</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>SuppressionExpert3</defName>
+    <label>Suppression Expert</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <statEffects>
+      <li>
+        <statDef>ActivitySuppressionRate</statDef>
+        <value>1.15</value>
+        <operation>Multiply</operation>
+      </li>
+    </statEffects>
+  </Talented.TalentDef>
+
+  <Talented.TalentDef>
+    <defName>CelestialTranscendence</defName>
+    <label>Celestial Transcendence</label>
+    <levelRequired>0</levelRequired>
+    <pointCost>1</pointCost>
+    <abilityEffects>
+      <li>
+        <abilities>
+          <li>
+            <abilityDef>CelestialKnights_ToggleSuit</abilityDef>
+          </li>
+        </abilities>
+      </li>
+    </abilityEffects>
+  </Talented.TalentDef>
+</Defs>
