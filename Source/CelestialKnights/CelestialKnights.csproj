@@ -51,6 +51,7 @@
     <Compile Include="CelestialKnightsStrainDef.cs" />
     <Compile Include="CelestialKnights_CompProperties_ToggleHediff.cs" />
     <Compile Include="CelestialKnights_HediffCompProperties_SuitToggle.cs" />
+    <Compile Include="CompProperties_SuitTransformEffect.cs" />
     <Compile Include="Gene_CelestialKnights.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

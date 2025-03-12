@@ -7,26 +7,9 @@
     <handlerClass>Talented.ActiveTreeHandler</handlerClass>
     <skin>DefaultTreeSkin</skin>
     <nodes>
-      <li>Node_1738538153545_270</li>
+      <li>Node_1738698254388_2600</li>
     </nodes>
     <availablePaths>
-      <li>
-        <name>CelestialDawnbringer</name>
-        <pathDescription>A versatile knight who balances offense, defense, and colony management, adapting to any situation.</pathDescription>
-        <pathColor>(0.6980392156862745,0.13333333333333333,0.13333333333333333)</pathColor>
-        <exclusiveWith>
-          <li>CelestialStormbringer</li>
-          <li>CelestialStarblade</li>
-          <li>CelestialSkywarden</li>
-          <li>CelestialLuminary</li>
-          <li>CelestialMindseer</li>
-          <li>CelestialHearthkeeper</li>
-          <li>CrimsonVeins</li>
-          <li>BodyoftheKizuki</li>
-          <li>KizukiAscension</li>
-          <li>CelestialDawnpiercer</li>
-        </exclusiveWith>
-      </li>
       <li>
         <name>CelestialLuminary</name>
         <pathDescription>The shining beacon of the team, providing healing, recovery, and support abilities.</pathDescription>
@@ -42,6 +25,40 @@
           <li>KizukiAscension</li>
           <li>CelestialMindseer</li>
           <li>CelestialDawnpiercer</li>
+        </exclusiveWith>
+      </li>
+      <li>
+        <name>CelestialStormbringer</name>
+        <pathDescription>A sharpshooter who commands the battlefield like a raging storm, striking with precision and power.</pathDescription>
+        <pathColor>(0.11764705882352941,0.22745098039215686,0.5411764705882353)</pathColor>
+        <exclusiveWith>
+          <li>CelestialDawnpiercer</li>
+          <li>CelestialMindseer</li>
+          <li>CelestialStarblade</li>
+          <li>CrimsonVeins</li>
+          <li>BodyoftheKizuki</li>
+          <li>CelestialSkywarden</li>
+          <li>CelestialHearthkeeper</li>
+          <li>CelestialLuminary</li>
+          <li>CelestialDawnbringer</li>
+          <li>KizukiAscension</li>
+        </exclusiveWith>
+      </li>
+      <li>
+        <name>CelestialDawnpiercer</name>
+        <pathDescription>A knight who leads with unyielding strength, cutting through the darkness like the first light of dawn.</pathDescription>
+        <pathColor>(1,0.8431372549019608,0)</pathColor>
+        <exclusiveWith>
+          <li>CelestialStormbringer</li>
+          <li>CelestialStarblade</li>
+          <li>CelestialSkywarden</li>
+          <li>CelestialLuminary</li>
+          <li>CelestialMindseer</li>
+          <li>CelestialHearthkeeper</li>
+          <li>CelestialDawnbringer</li>
+          <li>CrimsonVeins</li>
+          <li>BodyoftheKizuki</li>
+          <li>KizukiAscension</li>
         </exclusiveWith>
       </li>
       <li>
@@ -79,26 +96,9 @@
         </exclusiveWith>
       </li>
       <li>
-        <name>CelestialStormbringer</name>
-        <pathDescription>A sharpshooter who commands the battlefield like a raging storm, striking with precision and power.</pathDescription>
-        <pathColor>(0.11764705882352941,0.22745098039215686,0.5411764705882353)</pathColor>
-        <exclusiveWith>
-          <li>CelestialDawnpiercer</li>
-          <li>CelestialMindseer</li>
-          <li>CelestialStarblade</li>
-          <li>CrimsonVeins</li>
-          <li>BodyoftheKizuki</li>
-          <li>CelestialSkywarden</li>
-          <li>CelestialHearthkeeper</li>
-          <li>CelestialLuminary</li>
-          <li>CelestialDawnbringer</li>
-          <li>KizukiAscension</li>
-        </exclusiveWith>
-      </li>
-      <li>
-        <name>CelestialDawnpiercer</name>
-        <pathDescription>A knight who leads with unyielding strength, cutting through the darkness like the first light of dawn.</pathDescription>
-        <pathColor>(1,0.8431372549019608,0)</pathColor>
+        <name>CelestialDawnbringer</name>
+        <pathDescription>A versatile knight who balances offense, defense, and colony management, adapting to any situation.</pathDescription>
+        <pathColor>(0.6980392156862745,0.13333333333333333,0.13333333333333333)</pathColor>
         <exclusiveWith>
           <li>CelestialStormbringer</li>
           <li>CelestialStarblade</li>
@@ -106,10 +106,10 @@
           <li>CelestialLuminary</li>
           <li>CelestialMindseer</li>
           <li>CelestialHearthkeeper</li>
-          <li>CelestialDawnbringer</li>
           <li>CrimsonVeins</li>
           <li>BodyoftheKizuki</li>
           <li>KizukiAscension</li>
+          <li>CelestialDawnpiercer</li>
         </exclusiveWith>
       </li>
     </availablePaths>
@@ -118,47 +118,32 @@
   </Talented.TalentTreeDef>
 
   <Talented.TalentTreeNodeDef>
-    <defName>Node_1738538153545_270</defName>
+    <defName>Node_1738698254388_2600</defName>
     <label>Awaken</label>
     <style>DefaultNodeStyle</style>
-    <position>(615,738)</position>
+    <position>(610,899)</position>
     <type>Start</type>
     <upgrades>
       <li>CelestialTranscendence</li>
     </upgrades>
     <connections>
-      <li>Node_1738538153545_7922</li>
-      <li>Node_1738538153545_6423</li>
-      <li>Node_1738538153545_2381</li>
-      <li>Node_1738538153545_8974</li>
-      <li>Node_1738538153545_8558</li>
-      <li>Node_1738538153545_8558</li>
-      <li>Node_1738538153545_1970</li>
+      <li>node_1738529893524</li>
+      <li>Node_1738698254388_7432</li>
+      <li>node_1738529946828</li>
+      <li>Node_1738698254388_4641</li>
+      <li>Node_1738698254388_4641</li>
+      <li>Node_1738698254388_5795</li>
+      <li>node_1738691607622</li>
+      <li>Node_1738698254388_9584</li>
+      <li>Node_1738698254388_350</li>
     </connections>
   </Talented.TalentTreeNodeDef>
 
   <Talented.TalentTreeNodeDef>
-    <defName>Node_1738538153545_7922</defName>
-    <label>Quick</label>
+    <defName>Node_1738698254388_7432</defName>
+    <label>PhantomStep</label>
     <style>DefaultNodeStyle</style>
-    <position>(474,726)</position>
-    <type>Normal</type>
-    <upgrades>
-      <li>QuickLearner</li>
-      <li>QuickLearner2</li>
-      <li>QuickLearner3</li>
-    </upgrades>
-    <path>CelestialDawnbringer</path>
-    <connections>
-      <li>Node_1738538153545_7744</li>
-    </connections>
-  </Talented.TalentTreeNodeDef>
-
-  <Talented.TalentTreeNodeDef>
-    <defName>Node_1738538153545_6423</defName>
-    <label>Drifter</label>
-    <style>DefaultNodeStyle</style>
-    <position>(506,645)</position>
+    <position>(499,895)</position>
     <type>Normal</type>
     <upgrades>
       <li>DriftersReflexes</li>
@@ -167,49 +152,15 @@
     </upgrades>
     <path>CelestialLuminary</path>
     <connections>
-      <li>Node_1738538153545_9777</li>
+      <li>Node_1738698254388_6210</li>
     </connections>
   </Talented.TalentTreeNodeDef>
 
   <Talented.TalentTreeNodeDef>
-    <defName>Node_1738538153545_2381</defName>
-    <label>Stonewall</label>
+    <defName>Node_1738698254388_4641</defName>
+    <label>TempestBarrage</label>
     <style>DefaultNodeStyle</style>
-    <position>(569,647)</position>
-    <type>Normal</type>
-    <upgrades>
-      <li>StonewallStance</li>
-      <li>StonewallStance2</li>
-      <li>StonewallStance3</li>
-    </upgrades>
-    <path>CelestialMindseer</path>
-    <connections>
-      <li>Node_1738538153545_826</li>
-    </connections>
-  </Talented.TalentTreeNodeDef>
-
-  <Talented.TalentTreeNodeDef>
-    <defName>Node_1738538153545_8974</defName>
-    <label>WorkPony</label>
-    <style>DefaultNodeStyle</style>
-    <position>(633,642)</position>
-    <type>Normal</type>
-    <upgrades>
-      <li>Workhorse</li>
-      <li>Workhorse2</li>
-      <li>Workhorse3</li>
-    </upgrades>
-    <path>CelestialHearthkeeper</path>
-    <connections>
-      <li>Node_1738538153545_2482</li>
-    </connections>
-  </Talented.TalentTreeNodeDef>
-
-  <Talented.TalentTreeNodeDef>
-    <defName>Node_1738538153545_8558</defName>
-    <label>SF</label>
-    <style>DefaultNodeStyle</style>
-    <position>(693,639)</position>
+    <position>(724,901)</position>
     <type>Normal</type>
     <upgrades>
       <li>SuppressiveFire</li>
@@ -218,15 +169,15 @@
     </upgrades>
     <path>CelestialStormbringer</path>
     <connections>
-      <li>Node_1738538153545_6903</li>
+      <li>Node_1738698254388_317</li>
     </connections>
   </Talented.TalentTreeNodeDef>
 
   <Talented.TalentTreeNodeDef>
-    <defName>Node_1738538153545_1970</defName>
-    <label>BrwalerInstinct</label>
+    <defName>Node_1738698254388_5795</defName>
+    <label>FlurryOfDawn</label>
     <style>DefaultNodeStyle</style>
-    <position>(751,729)</position>
+    <position>(778,898)</position>
     <type>Normal</type>
     <upgrades>
       <li>BrawlersInstinct</li>
@@ -235,63 +186,15 @@
     </upgrades>
     <path>CelestialDawnpiercer</path>
     <connections>
-      <li>Node_1738538153545_3119</li>
+      <li>Node_1738698254388_7290</li>
     </connections>
   </Talented.TalentTreeNodeDef>
 
   <Talented.TalentTreeNodeDef>
-    <defName>Node_1738538153545_7744</defName>
-    <label>Nowaste</label>
+    <defName>Node_1738698254388_6210</defName>
+    <label>TwilightVolley</label>
     <style>DefaultNodeStyle</style>
-    <position>(470,550)</position>
-    <type>Normal</type>
-    <upgrades>
-      <li>NoWastedNails</li>
-      <li>NoWastedNails2</li>
-      <li>NoWastedNails</li>
-    </upgrades>
-    <path>CelestialDawnbringer</path>
-    <connections>
-      <li>Node_1738538153545_646</li>
-    </connections>
-  </Talented.TalentTreeNodeDef>
-
-  <Talented.TalentTreeNodeDef>
-    <defName>Node_1738538153545_646</defName>
-    <label>Craft</label>
-    <style>DefaultNodeStyle</style>
-    <position>(471,455)</position>
-    <type>Normal</type>
-    <upgrades>
-      <li>Craftsman</li>
-      <li>Craftsman2</li>
-      <li>Craftsman3</li>
-    </upgrades>
-    <path>CelestialStormbringer</path>
-    <connections>
-      <li>Node_1738538153545_3278</li>
-    </connections>
-  </Talented.TalentTreeNodeDef>
-
-  <Talented.TalentTreeNodeDef>
-    <defName>Node_1738538153545_3278</defName>
-    <label>AllPurpose</label>
-    <style>DefaultNodeStyle</style>
-    <position>(473,365)</position>
-    <type>Normal</type>
-    <upgrades>
-      <li>AllPurposeWorker</li>
-      <li>AllPurposeWorker2</li>
-      <li>AllPurposeWorker3</li>
-    </upgrades>
-    <path>CelestialStormbringer</path>
-  </Talented.TalentTreeNodeDef>
-
-  <Talented.TalentTreeNodeDef>
-    <defName>Node_1738538153545_9777</defName>
-    <label>Supperssive</label>
-    <style>DefaultNodeStyle</style>
-    <position>(528,552)</position>
+    <position>(499,839)</position>
     <type>Normal</type>
     <upgrades>
       <li>SuppressiveFire</li>
@@ -300,15 +203,15 @@
     </upgrades>
     <path>CelestialLuminary</path>
     <connections>
-      <li>Node_1738538153545_453</li>
+      <li>Node_1738698254388_1241</li>
     </connections>
   </Talented.TalentTreeNodeDef>
 
   <Talented.TalentTreeNodeDef>
-    <defName>Node_1738538153545_453</defName>
-    <label>PatchUp</label>
+    <defName>Node_1738698254388_1241</defName>
+    <label>LuminarysBlessing</label>
     <style>DefaultNodeStyle</style>
-    <position>(527,450)</position>
+    <position>(496,782)</position>
     <type>Normal</type>
     <upgrades>
       <li>PatchUpandPushOn</li>
@@ -318,32 +221,15 @@
     <path>CelestialLuminary</path>
     <connections>
       <li>node_1738530660635</li>
-      <li>Node_1738538153545_7395</li>
+      <li>Node_1738698254388_6849</li>
     </connections>
   </Talented.TalentTreeNodeDef>
 
   <Talented.TalentTreeNodeDef>
-    <defName>Node_1738538153545_826</defName>
-    <label>Fleet</label>
+    <defName>Node_1738698254388_8000</defName>
+    <label>DoctorsIntuition</label>
     <style>DefaultNodeStyle</style>
-    <position>(585,554)</position>
-    <type>Normal</type>
-    <upgrades>
-      <li>Fleetfoot</li>
-      <li>Fleetfoot2</li>
-      <li>Fleetfoot3</li>
-    </upgrades>
-    <path>CelestialMindseer</path>
-    <connections>
-      <li>Node_1738538153545_9756</li>
-    </connections>
-  </Talented.TalentTreeNodeDef>
-
-  <Talented.TalentTreeNodeDef>
-    <defName>Node_1738538153545_9756</defName>
-    <label>FieldMed</label>
-    <style>DefaultNodeStyle</style>
-    <position>(583,478)</position>
+    <position>(546,385)</position>
     <type>Normal</type>
     <upgrades>
       <li>FieldMedic</li>
@@ -352,15 +238,15 @@
     </upgrades>
     <path>CelestialMindseer</path>
     <connections>
-      <li>Node_1738538153545_3501</li>
+      <li>Node_1738698254388_1712</li>
     </connections>
   </Talented.TalentTreeNodeDef>
 
   <Talented.TalentTreeNodeDef>
-    <defName>Node_1738538153545_3501</defName>
-    <label>SureHand</label>
+    <defName>Node_1738698254388_1712</defName>
+    <label>SurgicalPrecision</label>
     <style>DefaultNodeStyle</style>
-    <position>(590,361)</position>
+    <position>(548,322)</position>
     <type>Normal</type>
     <upgrades>
       <li>SureHandedSurgeon</li>
@@ -371,58 +257,10 @@
   </Talented.TalentTreeNodeDef>
 
   <Talented.TalentTreeNodeDef>
-    <defName>Node_1738538153545_2482</defName>
-    <label>MT</label>
+    <defName>Node_1738698254388_317</defName>
+    <label>StormsPrecision</label>
     <style>DefaultNodeStyle</style>
-    <position>(640,552)</position>
-    <type>Normal</type>
-    <upgrades>
-      <li>MasterTrader</li>
-      <li>MasterTrader2</li>
-      <li>MasterTrader3</li>
-    </upgrades>
-    <path>CelestialHearthkeeper</path>
-    <connections>
-      <li>Node_1738538153545_2538</li>
-    </connections>
-  </Talented.TalentTreeNodeDef>
-
-  <Talented.TalentTreeNodeDef>
-    <defName>Node_1738538153545_2538</defName>
-    <label>Effcient</label>
-    <style>DefaultNodeStyle</style>
-    <position>(641,475)</position>
-    <type>Normal</type>
-    <upgrades>
-      <li>EfficientButcher</li>
-      <li>EfficientButcher2</li>
-      <li>MechanoidButcher3</li>
-    </upgrades>
-    <path>CelestialHearthkeeper</path>
-    <connections>
-      <li>Node_1738538153545_8339</li>
-    </connections>
-  </Talented.TalentTreeNodeDef>
-
-  <Talented.TalentTreeNodeDef>
-    <defName>Node_1738538153545_8339</defName>
-    <label>Gour</label>
-    <style>DefaultNodeStyle</style>
-    <position>(650,359)</position>
-    <type>Normal</type>
-    <upgrades>
-      <li>Gourmet</li>
-      <li>Gourmet2</li>
-      <li>Gourmet3</li>
-    </upgrades>
-    <path>CelestialHearthkeeper</path>
-  </Talented.TalentTreeNodeDef>
-
-  <Talented.TalentTreeNodeDef>
-    <defName>Node_1738538153545_6903</defName>
-    <label>SteadyH</label>
-    <style>DefaultNodeStyle</style>
-    <position>(694,550)</position>
+    <position>(723,847)</position>
     <type>Normal</type>
     <upgrades>
       <li>SteadyHand</li>
@@ -431,15 +269,15 @@
     </upgrades>
     <path>CelestialStormbringer</path>
     <connections>
-      <li>Node_1738538153545_7683</li>
+      <li>Node_1738698254388_3750</li>
     </connections>
   </Talented.TalentTreeNodeDef>
 
   <Talented.TalentTreeNodeDef>
-    <defName>Node_1738538153545_7683</defName>
-    <label>SnapS</label>
+    <defName>Node_1738698254388_3750</defName>
+    <label>LightningReflexes</label>
     <style>DefaultNodeStyle</style>
-    <position>(699,472)</position>
+    <position>(722,788)</position>
     <type>Normal</type>
     <upgrades>
       <li>SnapShot</li>
@@ -448,15 +286,15 @@
     </upgrades>
     <path>CelestialStormbringer</path>
     <connections>
-      <li>Node_1738538153545_9324</li>
+      <li>Node_1738698254388_2010</li>
     </connections>
   </Talented.TalentTreeNodeDef>
 
   <Talented.TalentTreeNodeDef>
-    <defName>Node_1738538153545_9324</defName>
-    <label>BattleHard</label>
+    <defName>Node_1738698254388_2010</defName>
+    <label>TempestsEndurance</label>
     <style>DefaultNodeStyle</style>
-    <position>(709,358)</position>
+    <position>(722,732)</position>
     <type>Normal</type>
     <upgrades>
       <li>BattleHardened</li>
@@ -464,13 +302,16 @@
       <li>BattleHardened3</li>
     </upgrades>
     <path>CelestialStormbringer</path>
+    <connections>
+      <li>Node_1738698254388_1065</li>
+    </connections>
   </Talented.TalentTreeNodeDef>
 
   <Talented.TalentTreeNodeDef>
-    <defName>Node_1738538153545_7395</defName>
-    <label>Stubborn</label>
+    <defName>Node_1738698254388_6849</defName>
+    <label>UnwaveringHope</label>
     <style>DefaultNodeStyle</style>
-    <position>(531,364)</position>
+    <position>(495,726)</position>
     <type>Normal</type>
     <upgrades>
       <li>StubbornResolve</li>
@@ -478,13 +319,16 @@
       <li>StubbornResolve3</li>
     </upgrades>
     <path>CelestialLuminary</path>
+    <connections>
+      <li>Node_1738698254388_1019</li>
+    </connections>
   </Talented.TalentTreeNodeDef>
 
   <Talented.TalentTreeNodeDef>
-    <defName>Node_1738538153545_3119</defName>
-    <label>CrackCarapace</label>
+    <defName>Node_1738698254388_7290</defName>
+    <label>SunstrikePenetration</label>
     <style>DefaultNodeStyle</style>
-    <position>(750,643)</position>
+    <position>(778,836)</position>
     <type>Normal</type>
     <upgrades>
       <li>CracktheCarapace</li>
@@ -493,15 +337,15 @@
     </upgrades>
     <path>CelestialDawnpiercer</path>
     <connections>
-      <li>Node_1738538153545_215</li>
+      <li>Node_1738698254388_3359</li>
     </connections>
   </Talented.TalentTreeNodeDef>
 
   <Talented.TalentTreeNodeDef>
-    <defName>Node_1738538153545_215</defName>
-    <label>SeasonFight</label>
+    <defName>Node_1738698254388_3359</defName>
+    <label>RadiantPrecision</label>
     <style>DefaultNodeStyle</style>
-    <position>(751,555)</position>
+    <position>(777,774)</position>
     <type>Normal</type>
     <upgrades>
       <li>SeasonedFighter</li>
@@ -510,15 +354,15 @@
     </upgrades>
     <path>CelestialDawnpiercer</path>
     <connections>
-      <li>Node_1738538153545_9974</li>
+      <li>Node_1738698254388_5894</li>
     </connections>
   </Talented.TalentTreeNodeDef>
 
   <Talented.TalentTreeNodeDef>
-    <defName>Node_1738538153545_9974</defName>
-    <label>Drift</label>
+    <defName>Node_1738698254388_5894</defName>
+    <label>EvasiveSunflare</label>
     <style>DefaultNodeStyle</style>
-    <position>(755,449)</position>
+    <position>(777,712)</position>
     <type>Normal</type>
     <upgrades>
       <li>DriftersReflexes</li>
@@ -526,6 +370,814 @@
       <li>DriftersReflexes3</li>
     </upgrades>
     <path>CelestialDawnpiercer</path>
+    <connections>
+      <li>Node_1738698254388_5511</li>
+    </connections>
+  </Talented.TalentTreeNodeDef>
+
+  <Talented.TalentTreeNodeDef>
+    <defName>Node_1738698254388_1019</defName>
+    <label>LifesTouch</label>
+    <style>DefaultNodeStyle</style>
+    <position>(495,659)</position>
+    <type>Normal</type>
+    <upgrades>
+      <li>GreenFingers</li>
+      <li>GreenFingers2</li>
+      <li>GreenFingers3</li>
+    </upgrades>
+    <path>CelestialLuminary</path>
+    <connections>
+      <li>Node_1738698254388_7349</li>
+    </connections>
+  </Talented.TalentTreeNodeDef>
+
+  <Talented.TalentTreeNodeDef>
+    <defName>Node_1738698254388_5540</defName>
+    <label>MentalFortification</label>
+    <style>DefaultNodeStyle</style>
+    <position>(553,672)</position>
+    <type>Normal</type>
+    <upgrades>
+      <li>StubbornResolve</li>
+      <li>StubbornResolve2</li>
+      <li>StubbornResolve3</li>
+    </upgrades>
+    <path>CelestialMindseer</path>
+    <connections>
+      <li>Node_1738698254388_8272</li>
+    </connections>
+  </Talented.TalentTreeNodeDef>
+
+  <Talented.TalentTreeNodeDef>
+    <defName>Node_1738698254388_7368</defName>
+    <label>FlamesRecovery</label>
+    <style>DefaultNodeStyle</style>
+    <position>(665,753)</position>
+    <type>Normal</type>
+    <upgrades>
+      <li>PatchUpandPushOn</li>
+      <li>PatchUpandPushOn2</li>
+      <li>PatchUpandPushOn3</li>
+    </upgrades>
+    <path>CelestialHearthkeeper</path>
+    <connections>
+      <li>Node_1738698254388_4908</li>
+    </connections>
+  </Talented.TalentTreeNodeDef>
+
+  <Talented.TalentTreeNodeDef>
+    <defName>Node_1738698254388_1065</defName>
+    <label>StormsGale</label>
+    <style>DefaultNodeStyle</style>
+    <position>(717,662)</position>
+    <type>Normal</type>
+    <upgrades>
+      <li>Fleetfoot</li>
+      <li>Fleetfoot2</li>
+      <li>Fleetfoot3</li>
+    </upgrades>
+    <path>CelestialStormbringer</path>
+    <connections>
+      <li>Node_1738698254388_5106</li>
+    </connections>
+  </Talented.TalentTreeNodeDef>
+
+  <Talented.TalentTreeNodeDef>
+    <defName>Node_1738698254388_5511</defName>
+    <label>UnyieldingRadiance</label>
+    <style>DefaultNodeStyle</style>
+    <position>(775,643)</position>
+    <type>Normal</type>
+    <upgrades>
+      <li>StonewallStance</li>
+      <li>StonewallStance2</li>
+      <li>StonewallStance3</li>
+    </upgrades>
+    <path>CelestialDawnpiercer</path>
+    <connections>
+      <li>Node_1738698254388_4694</li>
+    </connections>
+  </Talented.TalentTreeNodeDef>
+
+  <Talented.TalentTreeNodeDef>
+    <defName>Node_1738698254388_9584</defName>
+    <label>BlazingFury</label>
+    <style>DefaultNodeStyle</style>
+    <position>(434,880)</position>
+    <type>Normal</type>
+    <upgrades>
+      <li>BrawlersInstinct</li>
+      <li>BrawlersInstinct2</li>
+      <li>BrawlersInstinct3</li>
+    </upgrades>
+    <path>CelestialDawnbringer</path>
+    <connections>
+      <li>node_1738688688311</li>
+      <li>Node_1738698254388_84</li>
+    </connections>
+  </Talented.TalentTreeNodeDef>
+
+  <Talented.TalentTreeNodeDef>
+    <defName>Node_1738698254388_7349</defName>
+    <label>WhispersOfHarmony</label>
+    <style>DefaultNodeStyle</style>
+    <position>(495,590)</position>
+    <type>Normal</type>
+    <upgrades>
+      <li>WildWhisperer</li>
+      <li>WildWhisperer2</li>
+      <li>WildWhisperer3</li>
+    </upgrades>
+    <path>CelestialLuminary</path>
+    <connections>
+      <li>Node_1738698254388_2552</li>
+    </connections>
+  </Talented.TalentTreeNodeDef>
+
+  <Talented.TalentTreeNodeDef>
+    <defName>Node_1738698254388_2552</defName>
+    <label>MendersGrace</label>
+    <style>DefaultNodeStyle</style>
+    <position>(494,519)</position>
+    <type>Normal</type>
+    <upgrades>
+      <li>FieldMedic</li>
+      <li>FieldMedic2</li>
+      <li>FieldMedic3</li>
+    </upgrades>
+    <path>CelestialLuminary</path>
+    <connections>
+      <li>Node_1738698254388_6603</li>
+    </connections>
+  </Talented.TalentTreeNodeDef>
+
+  <Talented.TalentTreeNodeDef>
+    <defName>Node_1738698254388_8272</defName>
+    <label>LimitlessCuriosity</label>
+    <style>DefaultNodeStyle</style>
+    <position>(555,598)</position>
+    <type>Normal</type>
+    <upgrades>
+      <li>QuickLearner</li>
+      <li>QuickLearner2</li>
+      <li>QuickLearner3</li>
+    </upgrades>
+    <path>CelestialMindseer</path>
+    <connections>
+      <li>Node_1738698254388_4846</li>
+    </connections>
+  </Talented.TalentTreeNodeDef>
+
+  <Talented.TalentTreeNodeDef>
+    <defName>Node_1738698254388_4846</defName>
+    <label>VerdantInsight</label>
+    <style>DefaultNodeStyle</style>
+    <position>(551,510)</position>
+    <type>Normal</type>
+    <upgrades>
+      <li>GreenFingers</li>
+      <li>GreenFingers2</li>
+      <li>GreenFingers3</li>
+    </upgrades>
+    <path>CelestialMindseer</path>
+    <connections>
+      <li>Node_1738698254388_3223</li>
+    </connections>
+  </Talented.TalentTreeNodeDef>
+
+  <Talented.TalentTreeNodeDef>
+    <defName>Node_1738698254388_4908</defName>
+    <label>IroncladResolve</label>
+    <style>DefaultNodeStyle</style>
+    <position>(662,685)</position>
+    <type>Normal</type>
+    <upgrades>
+      <li>ToughasNails</li>
+      <li>ToughasNails2</li>
+      <li>ToughasNails3</li>
+    </upgrades>
+    <path>CelestialHearthkeeper</path>
+    <connections>
+      <li>Node_1738698254388_6831</li>
+    </connections>
+  </Talented.TalentTreeNodeDef>
+
+  <Talented.TalentTreeNodeDef>
+    <defName>Node_1738698254388_5106</defName>
+    <label>SkybornFortitude</label>
+    <style>DefaultNodeStyle</style>
+    <position>(719,601)</position>
+    <type>Normal</type>
+    <upgrades>
+      <li>ToughasNails</li>
+      <li>ToughasNails2</li>
+      <li>ToughasNails3</li>
+    </upgrades>
+    <path>CelestialStormbringer</path>
+    <connections>
+      <li>Node_1738698254388_8743</li>
+    </connections>
+  </Talented.TalentTreeNodeDef>
+
+  <Talented.TalentTreeNodeDef>
+    <defName>Node_1738698254388_4694</defName>
+    <label>SolarDash</label>
+    <style>DefaultNodeStyle</style>
+    <position>(774,580)</position>
+    <type>Normal</type>
+    <upgrades>
+      <li>Fleetfoot</li>
+      <li>Fleetfoot2</li>
+      <li>Fleetfoot3</li>
+    </upgrades>
+    <path>CelestialDawnpiercer</path>
+    <connections>
+      <li>Node_1738698254388_5737</li>
+    </connections>
+  </Talented.TalentTreeNodeDef>
+
+  <Talented.TalentTreeNodeDef>
+    <defName>Node_1738698254388_6831</defName>
+    <label>BurdenOfTheHearth</label>
+    <style>DefaultNodeStyle</style>
+    <position>(660,613)</position>
+    <type>Normal</type>
+    <upgrades>
+      <li>PackMule</li>
+      <li>PackMule2</li>
+      <li>PackMule3</li>
+    </upgrades>
+    <path>CelestialHearthkeeper</path>
+    <connections>
+      <li>Node_1738698254388_2140</li>
+    </connections>
+  </Talented.TalentTreeNodeDef>
+
+  <Talented.TalentTreeNodeDef>
+    <defName>Node_1738698254388_5737</defName>
+    <label>Dawncrawler</label>
+    <style>DefaultNodeStyle</style>
+    <position>(776,514)</position>
+    <type>Normal</type>
+    <upgrades>
+      <li>CrawlThroughtheMud</li>
+      <li>CrawlThroughtheMud2</li>
+      <li>CrawlThroughtheMud3</li>
+    </upgrades>
+    <path>CelestialDawnpiercer</path>
+    <connections>
+      <li>Node_1738698254388_2964</li>
+    </connections>
+  </Talented.TalentTreeNodeDef>
+
+  <Talented.TalentTreeNodeDef>
+    <defName>Node_1738698254388_8743</defName>
+    <label>ThunderProspector</label>
+    <style>DefaultNodeStyle</style>
+    <position>(716,533)</position>
+    <type>Normal</type>
+    <upgrades>
+      <li>OreHound</li>
+      <li>OreHound2</li>
+      <li>OreHound3</li>
+    </upgrades>
+    <path>CelestialStormbringer</path>
+    <connections>
+      <li>Node_1738698254388_4387</li>
+    </connections>
+  </Talented.TalentTreeNodeDef>
+
+  <Talented.TalentTreeNodeDef>
+    <defName>Node_1738698254388_84</defName>
+    <label>BalancedBarrage</label>
+    <style>DefaultNodeStyle</style>
+    <position>(434,811)</position>
+    <type>Normal</type>
+    <upgrades>
+      <li>SuppressiveFire</li>
+      <li>SuppressiveFire2</li>
+      <li>SuppressiveFire3</li>
+    </upgrades>
+    <path>CelestialDawnbringer</path>
+    <connections>
+      <li>Node_1738698254388_9119</li>
+    </connections>
+  </Talented.TalentTreeNodeDef>
+
+  <Talented.TalentTreeNodeDef>
+    <defName>Node_1738698254388_6603</defName>
+    <label>EyesOfTheLuminary</label>
+    <style>DefaultNodeStyle</style>
+    <position>(491,446)</position>
+    <type>Normal</type>
+    <upgrades>
+      <li>KeenDiagnosis</li>
+      <li>KeenDiagnosis2</li>
+      <li>KeenDiagnosis3</li>
+    </upgrades>
+    <path>CelestialLuminary</path>
+  </Talented.TalentTreeNodeDef>
+
+  <Talented.TalentTreeNodeDef>
+    <defName>Node_1738698254388_3223</defName>
+    <label>MasterOfTrades</label>
+    <style>DefaultNodeStyle</style>
+    <position>(547,450)</position>
+    <type>Normal</type>
+    <upgrades>
+      <li>Workhorse</li>
+      <li>Workhorse2</li>
+      <li>Workhorse3</li>
+    </upgrades>
+    <path>CelestialMindseer</path>
+    <connections>
+      <li>Node_1738698254388_8000</li>
+    </connections>
+  </Talented.TalentTreeNodeDef>
+
+  <Talented.TalentTreeNodeDef>
+    <defName>Node_1738698254388_2140</defName>
+    <label>IndustriousSpirit</label>
+    <style>DefaultNodeStyle</style>
+    <position>(658,533)</position>
+    <type>Normal</type>
+    <upgrades>
+      <li>Workhorse</li>
+      <li>Workhorse2</li>
+      <li>Workhorse3</li>
+    </upgrades>
+    <path>CelestialHearthkeeper</path>
+    <connections>
+      <li>Node_1738698254388_2798</li>
+    </connections>
+  </Talented.TalentTreeNodeDef>
+
+  <Talented.TalentTreeNodeDef>
+    <defName>Node_1738698254388_4387</defName>
+    <label>GeniusOfTheStorm</label>
+    <style>DefaultNodeStyle</style>
+    <position>(714,463)</position>
+    <type>Normal</type>
+    <upgrades>
+      <li>QuickLearner</li>
+      <li>QuickLearner2</li>
+      <li>QuickLearner3</li>
+    </upgrades>
+    <path>CelestialStormbringer</path>
+    <connections>
+      <li>Node_1738698254388_5186</li>
+    </connections>
+  </Talented.TalentTreeNodeDef>
+
+  <Talented.TalentTreeNodeDef>
+    <defName>Node_1738698254388_2964</defName>
+    <label>UnbreakableWill</label>
+    <style>DefaultNodeStyle</style>
+    <position>(774,448)</position>
+    <type>Normal</type>
+    <upgrades>
+      <li>StubbornResolve</li>
+      <li>StubbornResolve2</li>
+      <li>StubbornResolve3</li>
+    </upgrades>
+    <path>CelestialDawnpiercer</path>
+    <connections>
+      <li>Node_1738698254388_2027</li>
+      <li>Node_1738698254388_2027</li>
+      <li>Node_1738698254388_2027</li>
+    </connections>
+  </Talented.TalentTreeNodeDef>
+
+  <Talented.TalentTreeNodeDef>
+    <defName>Node_1738698254388_2027</defName>
+    <label>DawnsRenewal</label>
+    <style>DefaultNodeStyle</style>
+    <position>(774,385)</position>
+    <type>Normal</type>
+    <upgrades>
+      <li>PatchUpandPushOn</li>
+      <li>PatchUpandPushOn2</li>
+      <li>PatchUpandPushOn3</li>
+    </upgrades>
+    <path>CelestialDawnpiercer</path>
+    <connections>
+      <li>Node_1738698254388_1098</li>
+    </connections>
+  </Talented.TalentTreeNodeDef>
+
+  <Talented.TalentTreeNodeDef>
+    <defName>Node_1738698254388_1098</defName>
+    <label>EndlessDedication</label>
+    <style>DefaultNodeStyle</style>
+    <position>(775,317)</position>
+    <type>Normal</type>
+    <upgrades>
+      <li>Workhorse</li>
+      <li>Workhorse2</li>
+      <li>Workhorse3</li>
+    </upgrades>
+    <path>CelestialDawnpiercer</path>
+    <connections>
+      <li>Node_1738698254388_7147</li>
+    </connections>
+  </Talented.TalentTreeNodeDef>
+
+  <Talented.TalentTreeNodeDef>
+    <defName>Node_1738698254388_7147</defName>
+    <label>SeekerOfGold</label>
+    <style>DefaultNodeStyle</style>
+    <position>(774,252)</position>
+    <type>Normal</type>
+    <upgrades>
+      <li>ProspectorsEye</li>
+      <li>ProspectorsEye2</li>
+      <li>ProspectorsEye3</li>
+    </upgrades>
+    <path>CelestialDawnpiercer</path>
+    <connections>
+      <li>Node_1738698254388_2303</li>
+      <li>Node_1738698254388_2303</li>
+    </connections>
+  </Talented.TalentTreeNodeDef>
+
+  <Talented.TalentTreeNodeDef>
+    <defName>Node_1738698254388_2303</defName>
+    <label>GuidingLight</label>
+    <style>DefaultNodeStyle</style>
+    <position>(775,188)</position>
+    <type>Normal</type>
+    <upgrades>
+      <li>FieldMedic</li>
+      <li>FieldMedic2</li>
+      <li>FieldMedic3</li>
+    </upgrades>
+    <path>CelestialDawnpiercer</path>
+    <connections>
+      <li>Node_1738698254388_416</li>
+    </connections>
+  </Talented.TalentTreeNodeDef>
+
+  <Talented.TalentTreeNodeDef>
+    <defName>Node_1738698254388_416</defName>
+    <label>BlazingOnslaught</label>
+    <style>DefaultNodeStyle</style>
+    <position>(774,130)</position>
+    <type>Normal</type>
+    <upgrades>
+      <li>RelentlessStrikes</li>
+      <li>RelentlessStrikes2</li>
+      <li>RelentlessStrikes3</li>
+    </upgrades>
+    <path>CelestialDawnpiercer</path>
+    <connections>
+      <li>Node_1738698254388_3049</li>
+    </connections>
+  </Talented.TalentTreeNodeDef>
+
+  <Talented.TalentTreeNodeDef>
+    <defName>Node_1738698254388_3049</defName>
+    <label>CelestialHammer</label>
+    <style>DefaultNodeStyle</style>
+    <position>(772,71)</position>
+    <type>Normal</type>
+    <upgrades>
+      <li>BrutalSwings</li>
+      <li>BrutalSwings2</li>
+      <li>BrutalSwings3</li>
+    </upgrades>
+    <path>CelestialDawnpiercer</path>
+    <connections>
+      <li>Node_1738698254388_9331</li>
+    </connections>
+  </Talented.TalentTreeNodeDef>
+
+  <Talented.TalentTreeNodeDef>
+    <defName>Node_1738698254388_9331</defName>
+    <label>SunflareBreaker</label>
+    <style>DefaultNodeStyle</style>
+    <position>(772,8)</position>
+    <type>Normal</type>
+    <upgrades>
+      <li>BreachSpecialist</li>
+      <li>BreachSpecialist2</li>
+      <li>BreachSpecialist3</li>
+    </upgrades>
+    <path>CelestialDawnpiercer</path>
+  </Talented.TalentTreeNodeDef>
+
+  <Talented.TalentTreeNodeDef>
+    <defName>Node_1738698254388_5186</defName>
+    <label>StormsInsight</label>
+    <style>DefaultNodeStyle</style>
+    <position>(714,394)</position>
+    <type>Normal</type>
+    <upgrades>
+      <li>KeenDiagnosis</li>
+      <li>KeenDiagnosis2</li>
+      <li>KeenDiagnosis3</li>
+    </upgrades>
+    <path>CelestialStormbringer</path>
+    <connections>
+      <li>Node_1738698254388_8399</li>
+    </connections>
+  </Talented.TalentTreeNodeDef>
+
+  <Talented.TalentTreeNodeDef>
+    <defName>Node_1738698254388_8399</defName>
+    <label>Boltpiercer</label>
+    <style>DefaultNodeStyle</style>
+    <position>(712,321)</position>
+    <type>Normal</type>
+    <upgrades>
+      <li>WeakSpotFinder</li>
+      <li>WeakSpotFinder2</li>
+      <li>WeakSpotFinder3</li>
+    </upgrades>
+    <path>CelestialStormbringer</path>
+    <connections>
+      <li>Node_1738698254388_731</li>
+    </connections>
+  </Talented.TalentTreeNodeDef>
+
+  <Talented.TalentTreeNodeDef>
+    <defName>Node_1738698254388_731</defName>
+    <label>SkyforgedBreaker</label>
+    <style>DefaultNodeStyle</style>
+    <position>(714,249)</position>
+    <type>Normal</type>
+    <upgrades>
+      <li>BreachSpecialist</li>
+      <li>BreachSpecialist2</li>
+      <li>BreachSpecialist3</li>
+    </upgrades>
+    <path>CelestialStormbringer</path>
+  </Talented.TalentTreeNodeDef>
+
+  <Talented.TalentTreeNodeDef>
+    <defName>Node_1738698254388_6934</defName>
+    <label>SearingBlade</label>
+    <style>DefaultNodeStyle</style>
+    <position>(665,896)</position>
+    <type>Normal</type>
+    <upgrades>
+      <li>CracktheCarapace</li>
+      <li>CracktheCarapace2</li>
+      <li>CracktheCarapace3</li>
+    </upgrades>
+    <path>CelestialHearthkeeper</path>
+    <connections>
+      <li>Node_1738698254388_8630</li>
+    </connections>
+  </Talented.TalentTreeNodeDef>
+
+  <Talented.TalentTreeNodeDef>
+    <defName>Node_1738698254388_8630</defName>
+    <label>AshenRain</label>
+    <style>DefaultNodeStyle</style>
+    <position>(665,826)</position>
+    <type>Normal</type>
+    <upgrades>
+      <li>SuppressiveFire</li>
+      <li>SuppressiveFire2</li>
+      <li>SuppressiveFire3</li>
+    </upgrades>
+    <path>CelestialHearthkeeper</path>
+    <connections>
+      <li>Node_1738698254388_7368</li>
+    </connections>
+  </Talented.TalentTreeNodeDef>
+
+  <Talented.TalentTreeNodeDef>
+    <defName>Node_1738698254388_2798</defName>
+    <label>KeepersTouch</label>
+    <style>DefaultNodeStyle</style>
+    <position>(655,457)</position>
+    <type>Normal</type>
+    <upgrades>
+      <li>AnimalBond</li>
+      <li>AnimalBond2</li>
+      <li>AnimalBond3</li>
+    </upgrades>
+    <path>CelestialHearthkeeper</path>
+    <connections>
+      <li>Node_1738698254388_6814</li>
+    </connections>
+  </Talented.TalentTreeNodeDef>
+
+  <Talented.TalentTreeNodeDef>
+    <defName>Node_1738698254388_6814</defName>
+    <label>HearthboundAid</label>
+    <style>DefaultNodeStyle</style>
+    <position>(653,385)</position>
+    <type>Normal</type>
+    <upgrades>
+      <li>FieldMedic</li>
+      <li>FieldMedic2</li>
+      <li>FieldMedic3</li>
+    </upgrades>
+    <path>CelestialHearthkeeper</path>
+    <connections>
+      <li>Node_1738698254388_7735</li>
+    </connections>
+  </Talented.TalentTreeNodeDef>
+
+  <Talented.TalentTreeNodeDef>
+    <defName>Node_1738698254388_7735</defName>
+    <label>CaretakersIntuition</label>
+    <style>DefaultNodeStyle</style>
+    <position>(652,305)</position>
+    <type>Normal</type>
+    <upgrades>
+      <li>KeenDiagnosis</li>
+      <li>KeenDiagnosis2</li>
+      <li>KeenDiagnosis3</li>
+    </upgrades>
+    <path>CelestialHearthkeeper</path>
+  </Talented.TalentTreeNodeDef>
+
+  <Talented.TalentTreeNodeDef>
+    <defName>Node_1738698254388_9119</defName>
+    <label>PrecisionOfDawn</label>
+    <style>DefaultNodeStyle</style>
+    <position>(434,733)</position>
+    <type>Normal</type>
+    <upgrades>
+      <li>SteadyHand</li>
+      <li>SteadyHand2</li>
+      <li>SteadyHand3</li>
+    </upgrades>
+    <path>CelestialDawnbringer</path>
+    <connections>
+      <li>Node_1738698254388_5568</li>
+    </connections>
+  </Talented.TalentTreeNodeDef>
+
+  <Talented.TalentTreeNodeDef>
+    <defName>Node_1738698254388_5568</defName>
+    <label>StrideOfTheVanguard</label>
+    <style>DefaultNodeStyle</style>
+    <position>(432,658)</position>
+    <type>Normal</type>
+    <upgrades>
+      <li>Fleetfoot</li>
+      <li>Fleetfoot2</li>
+      <li>Fleetfoot3</li>
+    </upgrades>
+    <path>CelestialDawnbringer</path>
+    <connections>
+      <li>Node_1738698254388_3162</li>
+    </connections>
+  </Talented.TalentTreeNodeDef>
+
+  <Talented.TalentTreeNodeDef>
+    <defName>Node_1738698254388_1300</defName>
+    <label>IndomitableWill</label>
+    <style>DefaultNodeStyle</style>
+    <position>(428,507)</position>
+    <type>Normal</type>
+    <upgrades>
+      <li>StubbornResolve</li>
+      <li>StubbornResolve2</li>
+      <li>StubbornResolve3</li>
+    </upgrades>
+    <path>CelestialDawnbringer</path>
+    <connections>
+      <li>Node_1738698254388_6345</li>
+    </connections>
+  </Talented.TalentTreeNodeDef>
+
+  <Talented.TalentTreeNodeDef>
+    <defName>Node_1738698254388_3162</defName>
+    <label>ShadowStep</label>
+    <style>DefaultNodeStyle</style>
+    <position>(428,586)</position>
+    <type>Normal</type>
+    <upgrades>
+      <li>CrawlThroughtheMud</li>
+      <li>CrawlThroughtheMud2</li>
+      <li>CrawlThroughtheMud3</li>
+    </upgrades>
+    <path>CelestialDawnbringer</path>
+    <connections>
+      <li>Node_1738698254388_1300</li>
+    </connections>
+  </Talented.TalentTreeNodeDef>
+
+  <Talented.TalentTreeNodeDef>
+    <defName>Node_1738698254388_2189</defName>
+    <label>HandsOfTheDawn</label>
+    <style>DefaultNodeStyle</style>
+    <position>(424,207)</position>
+    <type>Normal</type>
+    <upgrades>
+      <li>SureHandedSurgeon</li>
+      <li>SureHandedSurgeon2</li>
+      <li>SureHandedSurgeon3</li>
+    </upgrades>
+    <path>CelestialDawnbringer</path>
+  </Talented.TalentTreeNodeDef>
+
+  <Talented.TalentTreeNodeDef>
+    <defName>Node_1738698254388_6345</defName>
+    <label>TirelessEffort</label>
+    <style>DefaultNodeStyle</style>
+    <position>(428,425)</position>
+    <type>Normal</type>
+    <upgrades>
+      <li>Workhorse</li>
+      <li>Workhorse2</li>
+      <li>Workhorse3</li>
+    </upgrades>
+    <path>CelestialDawnbringer</path>
+    <connections>
+      <li>Node_1738698254388_7701</li>
+    </connections>
+  </Talented.TalentTreeNodeDef>
+
+  <Talented.TalentTreeNodeDef>
+    <defName>Node_1738698254388_655</defName>
+    <label>GuardiansTouch</label>
+    <style>DefaultNodeStyle</style>
+    <position>(425,283)</position>
+    <type>Normal</type>
+    <upgrades>
+      <li>FieldMedic</li>
+      <li>FieldMedic2</li>
+      <li>FieldMedic3</li>
+    </upgrades>
+    <path>CelestialDawnbringer</path>
+    <connections>
+      <li>Node_1738698254388_2189</li>
+    </connections>
+  </Talented.TalentTreeNodeDef>
+
+  <Talented.TalentTreeNodeDef>
+    <defName>Node_1738698254388_7701</defName>
+    <label>PioneeringMind</label>
+    <style>DefaultNodeStyle</style>
+    <position>(426,351)</position>
+    <type>Normal</type>
+    <upgrades>
+      <li>QuickLearner</li>
+      <li>QuickLearner2</li>
+      <li>QuickLearner3</li>
+    </upgrades>
+    <path>CelestialDawnbringer</path>
+    <connections>
+      <li>Node_1738698254388_655</li>
+    </connections>
+  </Talented.TalentTreeNodeDef>
+
+  <Talented.TalentTreeNodeDef>
+    <defName>Node_1738698254388_350</defName>
+    <label>CalculatedVolley</label>
+    <style>DefaultNodeStyle</style>
+    <position>(553,891)</position>
+    <type>Normal</type>
+    <upgrades>
+      <li>SuppressiveFire</li>
+      <li>SuppressiveFire2</li>
+      <li>SuppressiveFire3</li>
+    </upgrades>
+    <path>CelestialMindseer</path>
+    <connections>
+      <li>Node_1738698254388_2497</li>
+    </connections>
+  </Talented.TalentTreeNodeDef>
+
+  <Talented.TalentTreeNodeDef>
+    <defName>Node_1738698254388_2497</defName>
+    <label>ResoluteMind</label>
+    <style>DefaultNodeStyle</style>
+    <position>(555,822)</position>
+    <type>Normal</type>
+    <upgrades>
+      <li>StonewallStance</li>
+      <li>StonewallStance2</li>
+      <li>StonewallStance3</li>
+    </upgrades>
+    <path>CelestialMindseer</path>
+    <connections>
+      <li>Node_1738698254388_9866</li>
+    </connections>
+  </Talented.TalentTreeNodeDef>
+
+  <Talented.TalentTreeNodeDef>
+    <defName>Node_1738698254388_9866</defName>
+    <label>SeekersStride</label>
+    <style>DefaultNodeStyle</style>
+    <position>(555,750)</position>
+    <type>Normal</type>
+    <upgrades>
+      <li>Fleetfoot</li>
+      <li>Fleetfoot2</li>
+      <li>Fleetfoot3</li>
+    </upgrades>
+    <path>CelestialMindseer</path>
+    <connections>
+      <li>Node_1738698254388_5540</li>
+    </connections>
   </Talented.TalentTreeNodeDef>
 
 </Defs>

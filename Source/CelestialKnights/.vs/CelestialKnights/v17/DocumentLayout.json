@@ -1,50 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Downloads\\CK\\Source\\CelestialKnights\\",
+  "WorkspaceRootPath": "E:\\CelestialKnight\\Source\\CelestialKnights\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{34664E4A-FA39-4257-844E-AF6F169517A9}|CelestialKnights.csproj|E:\\Downloads\\CK\\Source\\CelestialKnights\\celestialknightspawnoverlaynodeproperties.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34664E4A-FA39-4257-844E-AF6F169517A9}|CelestialKnights.csproj|solutionrelative:celestialknightspawnoverlaynodeproperties.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34664E4A-FA39-4257-844E-AF6F169517A9}|CelestialKnights.csproj|E:\\Downloads\\CK\\Source\\CelestialKnights\\celestialknightspawnoverlaynodeworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34664E4A-FA39-4257-844E-AF6F169517A9}|CelestialKnights.csproj|solutionrelative:celestialknightspawnoverlaynodeworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34664E4A-FA39-4257-844E-AF6F169517A9}|CelestialKnights.csproj|E:\\Downloads\\CK\\Source\\CelestialKnights\\celestialknightspawnoverlaynode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34664E4A-FA39-4257-844E-AF6F169517A9}|CelestialKnights.csproj|solutionrelative:celestialknightspawnoverlaynode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34664E4A-FA39-4257-844E-AF6F169517A9}|CelestialKnights.csproj|E:\\Downloads\\CK\\Source\\CelestialKnights\\celestialknights_compproperties_togglehediff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34664E4A-FA39-4257-844E-AF6F169517A9}|CelestialKnights.csproj|solutionrelative:celestialknights_compproperties_togglehediff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34664E4A-FA39-4257-844E-AF6F169517A9}|CelestialKnights.csproj|E:\\Downloads\\CK\\Source\\CelestialKnights\\gene_celestialknights.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34664E4A-FA39-4257-844E-AF6F169517A9}|CelestialKnights.csproj|solutionrelative:gene_celestialknights.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34664E4A-FA39-4257-844E-AF6F169517A9}|CelestialKnights.csproj|E:\\Downloads\\CK\\Source\\CelestialKnights\\celestialknightscompabilityeffect_toggleable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34664E4A-FA39-4257-844E-AF6F169517A9}|CelestialKnights.csproj|solutionrelative:celestialknightscompabilityeffect_toggleable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34664E4A-FA39-4257-844E-AF6F169517A9}|CelestialKnights.csproj|E:\\Downloads\\CK\\Source\\CelestialKnights\\celestialknightsstraindef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34664E4A-FA39-4257-844E-AF6F169517A9}|CelestialKnights.csproj|solutionrelative:celestialknightsstraindef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34664E4A-FA39-4257-844E-AF6F169517A9}|CelestialKnights.csproj|e:\\downloads\\ck\\source\\celestialknights\\celestialknights_hediffcompproperties_suittoggle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34664E4A-FA39-4257-844E-AF6F169517A9}|CelestialKnights.csproj|solutionrelative:celestialknights_hediffcompproperties_suittoggle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34664E4A-FA39-4257-844E-AF6F169517A9}|CelestialKnights.csproj|E:\\Downloads\\CK\\Source\\CelestialKnights\\celestialknightsgenedef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34664E4A-FA39-4257-844E-AF6F169517A9}|CelestialKnights.csproj|solutionrelative:celestialknightsgenedef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34664E4A-FA39-4257-844E-AF6F169517A9}|CelestialKnights.csproj|E:\\Downloads\\CK\\Source\\CelestialKnights\\celestialknightsdefof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34664E4A-FA39-4257-844E-AF6F169517A9}|CelestialKnights.csproj|solutionrelative:celestialknightsdefof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34664E4A-FA39-4257-844E-AF6F169517A9}|CelestialKnights.csproj|E:\\Downloads\\CK\\Source\\CelestialKnights\\celestialknightsgraphicspatches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34664E4A-FA39-4257-844E-AF6F169517A9}|CelestialKnights.csproj|solutionrelative:celestialknightsgraphicspatches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{34664E4A-FA39-4257-844E-AF6F169517A9}|CelestialKnights.csproj|e:\\celestialknight\\source\\celestialknights\\compproperties_suittransformeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34664E4A-FA39-4257-844E-AF6F169517A9}|CelestialKnights.csproj|solutionrelative:compproperties_suittransformeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,148 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CelestialKnightsCompAbilityEffect_Toggleable.cs",
-              "DocumentMoniker": "E:\\Downloads\\CK\\Source\\CelestialKnights\\CelestialKnightsCompAbilityEffect_Toggleable.cs",
-              "RelativeDocumentMoniker": "CelestialKnightsCompAbilityEffect_Toggleable.cs",
-              "ToolTip": "E:\\Downloads\\CK\\Source\\CelestialKnights\\CelestialKnightsCompAbilityEffect_Toggleable.cs",
-              "RelativeToolTip": "CelestialKnightsCompAbilityEffect_Toggleable.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T22:32:33.075Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CelestialKnights_CompProperties_ToggleHediff.cs",
-              "DocumentMoniker": "E:\\Downloads\\CK\\Source\\CelestialKnights\\CelestialKnights_CompProperties_ToggleHediff.cs",
-              "RelativeDocumentMoniker": "CelestialKnights_CompProperties_ToggleHediff.cs",
-              "ToolTip": "E:\\Downloads\\CK\\Source\\CelestialKnights\\CelestialKnights_CompProperties_ToggleHediff.cs",
-              "RelativeToolTip": "CelestialKnights_CompProperties_ToggleHediff.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAYAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T22:31:39.551Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Gene_CelestialKnights.cs",
-              "DocumentMoniker": "E:\\Downloads\\CK\\Source\\CelestialKnights\\Gene_CelestialKnights.cs",
-              "RelativeDocumentMoniker": "Gene_CelestialKnights.cs",
-              "ToolTip": "E:\\Downloads\\CK\\Source\\CelestialKnights\\Gene_CelestialKnights.cs",
-              "RelativeToolTip": "Gene_CelestialKnights.cs",
-              "ViewState": "AgIAAHQAAAAAAAAAAADwv4gAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T22:30:04.786Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CelestialKnightsGraphicsPatches.cs",
-              "DocumentMoniker": "E:\\Downloads\\CK\\Source\\CelestialKnights\\CelestialKnightsGraphicsPatches.cs",
-              "RelativeDocumentMoniker": "CelestialKnightsGraphicsPatches.cs",
-              "ToolTip": "E:\\Downloads\\CK\\Source\\CelestialKnights\\CelestialKnightsGraphicsPatches.cs",
-              "RelativeToolTip": "CelestialKnightsGraphicsPatches.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T22:26:37.616Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CelestialKnights_HediffCompProperties_SuitToggle.cs",
-              "DocumentMoniker": "E:\\Downloads\\CK\\Source\\CelestialKnights\\CelestialKnights_HediffCompProperties_SuitToggle.cs",
-              "RelativeDocumentMoniker": "CelestialKnights_HediffCompProperties_SuitToggle.cs",
-              "ToolTip": "E:\\Downloads\\CK\\Source\\CelestialKnights\\CelestialKnights_HediffCompProperties_SuitToggle.cs",
-              "RelativeToolTip": "CelestialKnights_HediffCompProperties_SuitToggle.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T22:25:31.467Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CelestialKnightsGeneDef.cs",
-              "DocumentMoniker": "E:\\Downloads\\CK\\Source\\CelestialKnights\\CelestialKnightsGeneDef.cs",
-              "RelativeDocumentMoniker": "CelestialKnightsGeneDef.cs",
-              "ToolTip": "E:\\Downloads\\CK\\Source\\CelestialKnights\\CelestialKnightsGeneDef.cs",
-              "RelativeToolTip": "CelestialKnightsGeneDef.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAcwBwAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T22:24:04.279Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CelestialKnightsPawnOverlayNode.cs",
-              "DocumentMoniker": "E:\\Downloads\\CK\\Source\\CelestialKnights\\CelestialKnightsPawnOverlayNode.cs",
-              "RelativeDocumentMoniker": "CelestialKnightsPawnOverlayNode.cs",
-              "ToolTip": "E:\\Downloads\\CK\\Source\\CelestialKnights\\CelestialKnightsPawnOverlayNode.cs",
-              "RelativeToolTip": "CelestialKnightsPawnOverlayNode.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T22:21:47.45Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CelestialKnightsPawnOverlayNodeProperties.cs",
-              "DocumentMoniker": "E:\\Downloads\\CK\\Source\\CelestialKnights\\CelestialKnightsPawnOverlayNodeProperties.cs",
-              "RelativeDocumentMoniker": "CelestialKnightsPawnOverlayNodeProperties.cs",
-              "ToolTip": "E:\\Downloads\\CK\\Source\\CelestialKnights\\CelestialKnightsPawnOverlayNodeProperties.cs",
-              "RelativeToolTip": "CelestialKnightsPawnOverlayNodeProperties.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAwAAAAAAAAAA==",
+              "Title": "CompProperties_SuitTransformEffect.cs",
+              "DocumentMoniker": "E:\\CelestialKnight\\Source\\CelestialKnights\\CompProperties_SuitTransformEffect.cs",
+              "RelativeDocumentMoniker": "CompProperties_SuitTransformEffect.cs",
+              "ToolTip": "E:\\CelestialKnight\\Source\\CelestialKnights\\CompProperties_SuitTransformEffect.cs",
+              "RelativeToolTip": "CompProperties_SuitTransformEffect.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T22:20:45.792Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CelestialKnightsPawnOverlayNodeWorker.cs",
-              "DocumentMoniker": "E:\\Downloads\\CK\\Source\\CelestialKnights\\CelestialKnightsPawnOverlayNodeWorker.cs",
-              "RelativeDocumentMoniker": "CelestialKnightsPawnOverlayNodeWorker.cs",
-              "ToolTip": "E:\\Downloads\\CK\\Source\\CelestialKnights\\CelestialKnightsPawnOverlayNodeWorker.cs",
-              "RelativeToolTip": "CelestialKnightsPawnOverlayNodeWorker.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T22:19:54.651Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CelestialKnightsStrainDef.cs",
-              "DocumentMoniker": "E:\\Downloads\\CK\\Source\\CelestialKnights\\CelestialKnightsStrainDef.cs",
-              "RelativeDocumentMoniker": "CelestialKnightsStrainDef.cs",
-              "ToolTip": "E:\\Downloads\\CK\\Source\\CelestialKnights\\CelestialKnightsStrainDef.cs",
-              "RelativeToolTip": "CelestialKnightsStrainDef.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T22:18:26.475Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CelestialKnightsDefOf.cs",
-              "DocumentMoniker": "E:\\Downloads\\CK\\Source\\CelestialKnights\\CelestialKnightsDefOf.cs",
-              "RelativeDocumentMoniker": "CelestialKnightsDefOf.cs",
-              "ToolTip": "E:\\Downloads\\CK\\Source\\CelestialKnights\\CelestialKnightsDefOf.cs",
-              "RelativeToolTip": "CelestialKnightsDefOf.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T22:16:26.003Z",
+              "WhenOpened": "2025-02-09T17:28:39.675Z",
               "EditorCaption": ""
             }
           ]

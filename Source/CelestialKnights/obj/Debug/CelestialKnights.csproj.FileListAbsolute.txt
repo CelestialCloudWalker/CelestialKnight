@@ -17,3 +17,12 @@ O:\GitHub\CelestialKnight\Source\CelestialKnights\obj\Debug\CelestialKnights.dll
 O:\GitHub\CelestialKnight\Source\CelestialKnights\obj\Debug\CelestialKnights.pdb
 O:\GitHub\CelestialKnight\Source\CelestialKnights\bin\Debug\Talented.dll
 O:\GitHub\CelestialKnight\Source\CelestialKnights\bin\Debug\Talented.pdb
+E:\CelestialKnight\Source\CelestialKnights\bin\Debug\CelestialKnights.dll
+E:\CelestialKnight\Source\CelestialKnights\bin\Debug\CelestialKnights.pdb
+E:\CelestialKnight\Source\CelestialKnights\bin\Debug\0Harmony.dll
+E:\CelestialKnight\Source\CelestialKnights\bin\Debug\0Harmony.pdb
+E:\CelestialKnight\Source\CelestialKnights\obj\Debug\CelestialKnights.csproj.AssemblyReference.cache
+E:\CelestialKnight\Source\CelestialKnights\obj\Debug\CelestialKnights.csproj.CoreCompileInputs.cache
+E:\CelestialKnight\Source\CelestialKnights\obj\Debug\Celestia.DAFF0669.Up2Date
+E:\CelestialKnight\Source\CelestialKnights\obj\Debug\CelestialKnights.dll
+E:\CelestialKnight\Source\CelestialKnights\obj\Debug\CelestialKnights.pdb

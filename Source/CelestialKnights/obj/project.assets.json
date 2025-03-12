@@ -680,20 +680,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Bry\\.nuget\\packages\\": {}
+    "C:\\Users\\Ra1der\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "O:\\GitHub\\CelestialKnight\\Source\\CelestialKnights\\CelestialKnights.csproj",
+      "projectUniqueName": "E:\\CelestialKnight\\Source\\CelestialKnights\\CelestialKnights.csproj",
       "projectName": "CelestialKnights",
-      "projectPath": "O:\\GitHub\\CelestialKnight\\Source\\CelestialKnights\\CelestialKnights.csproj",
-      "packagesPath": "C:\\Users\\Bry\\.nuget\\packages\\",
-      "outputPath": "O:\\GitHub\\CelestialKnight\\Source\\CelestialKnights\\obj\\",
+      "projectPath": "E:\\CelestialKnight\\Source\\CelestialKnights\\CelestialKnights.csproj",
+      "packagesPath": "C:\\Users\\Ra1der\\.nuget\\packages\\",
+      "outputPath": "E:\\CelestialKnight\\Source\\CelestialKnights\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
+      "UsingMicrosoftNETSdk": false,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Bry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Ra1der\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -707,6 +713,11 @@
         "net48": {
           "projectReferences": {}
         }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "all"
       }
     },
     "frameworks": {

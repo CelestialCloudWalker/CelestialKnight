@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <HediffDef Name="CK_BodyPartBase" ParentName="AddedBodyPartBase" Abstract="True">
+    <isBad>false</isBad>
+    <addedPartProps>
+      <solid>true</solid>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+  </HediffDef>
+
+
+  <HediffDef ParentName="CK_BodyPartBase">
+    <defName>CK_CelestialLuminary_CelestialTalons</defName>
+    <label>Celestial Talons</label>
+    <labelNoun>A Celestial Talon</labelNoun>
+    <description>Hardened suit enhances the Celestial Knight’s hands, improving combat effectiveness and surgical precision.</description>
+    <addedPartProps>
+      <solid>true</solid>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <MeleeHitChance>0.20</MeleeHitChance>
+          <MeleeDodgeChance>0.15</MeleeDodgeChance>
+          <MedicalSurgerySuccessChance>0.15</MedicalSurgerySuccessChance>
+          <MedicalTendSpeed>0.15</MedicalTendSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>Celestial Talon</label>
+            <capacities>
+              <li>Cut</li>
+              <li>Stab</li>
+            </capacities>
+            <power>20</power>
+            <cooldownTime>1.6</cooldownTime>
+            <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+            <soundMeleeHit>MeleeHit_BionicSlash</soundMeleeHit>
+            <soundMeleeMiss>MeleeMiss_BionicSlash</soundMeleeMiss>
+          </li>
+        </tools>
+      </li>
+    </comps>
+  </HediffDef>
+
+
+
+</Defs>

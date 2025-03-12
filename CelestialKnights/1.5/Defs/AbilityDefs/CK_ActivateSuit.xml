@@ -10,7 +10,7 @@
     <displayOrder>200</displayOrder>
     <aiCanUse>true</aiCanUse>
     <warmupEffecter>WaterMist</warmupEffecter>
-    <emittedFleck>ShockwaveFast</emittedFleck>
+    <emittedFleck>LightningGlow</emittedFleck>
     <displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>
     <disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
     <stunTargetWhileCasting>false</stunTargetWhileCasting>
@@ -25,6 +25,11 @@
     <comps>
       <li Class="CelestialKnights.CelestialKnights_CompProperties_ToggleHediff">
         <hediffDef>CelestialKnights_SuitActive</hediffDef>
+      </li>
+      <li Class="CelestialKnights.CompProperties_SuitTransformEffect">
+        <lightning>true</lightning>
+        <visualRadius>6</visualRadius>
+        <sound>Thunder_OnMap</sound>
       </li>
     </comps>
     <modExtensions>
